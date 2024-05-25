@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Favicon icon-->
+	<link rel="shortcut icon" type="image/png" href="./assets/images/logos/favicon.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+	<!-- Core Css -->
+	<link rel="stylesheet" href="./assets/css/theme.css" />
+	<title>Modernize TailwindCSS HTML Admin Template</title>
+</head>
+
+<body class=" bg-white">
+
+	<!--  Header Start -->
+	<header class="w-full text-sm py-5 xl:px-9 px-5 border-b-2">
+
+
+		<!-- ========== HEADER ========== -->
+
+		<nav class=" w-full bg-gray-800  flex items-center justify-between" aria-label="Global">
+
+			<a href="#" class="flex items-center">
+
+				<img src="./assets/images/logo.png" alt="" class="transition-all w-12 md:w-16">
+
+				<h1 class="md:text-xl text-lg font-extrabold px-6 transition-all">Hokejová liga Čaňa</h1>
+
+			</a>
+
+			<div class="flex items-center gap-4">
+				<h2 class="text-right flex flex-col relative font-bold md:text-xl text-lg transition-all">
+					<span class="text-xs absolute -top-3 right-0 font-light">Uživateľ</span>
+					Hk Trstené Pri Hornáde
+				</h2>
+				<div class="hs-dropdown relative inline-flex [--placement:bottom-right] sm:[--trigger:hover]">
+					<a class="relative hs-dropdown-toggle cursor-pointer align-middle rounded-full">
+						<img class="object-cover w-9 h-9 transition-all md:w-12 md:h-12 rounded-full" src="./assets/images/profile/user-1.jpg" alt=""
+							aria-hidden="true">
+					</a>
+					<div class="card hs-dropdown-menu transition-[opacity,margin] border border-gray-400 rounded-[7px] duration hs-dropdown-open:opacity-100 opacity-0 mt-2 min-w-max  w-[200px] hidden z-[12]"
+						aria-labelledby="hs-dropdown-custom-icon-trigger">
+						<div class="card-body p-0 py-2">
+							<a href="javscript:void(0)" class="flex gap-2 items-center px-4 py-[6px] hover:bg-blue-500">
+								<i class="ti ti-user text-gray-500 text-xl "></i>
+								<p class="text-sm text-gray-500">My Profile</p>
+							</a>
+							<a href="javscript:void(0)" class="flex gap-2 items-center px-4 py-[6px] hover:bg-blue-500">
+								<i class="ti ti-mail text-gray-500 text-xl"></i>
+								<p class="text-sm text-gray-500">My Account</p>
+							</a>
+							<a href="javscript:void(0)" class="flex gap-2 items-center px-4 py-[6px] hover:bg-blue-500">
+								<i class="ti ti-list-check text-gray-500 text-xl "></i>
+								<p class="text-sm text-gray-500">My Task</p>
+							</a>
+							<div class="px-4 mt-[7px] grid">
+								<a href="../../pages/authentication-login.html"
+									class="btn-outline-primary w-full hover:bg-blue-600 hover:text-white">Logout</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</nav>
+
+		<!-- ========== END HEADER ========== -->
+	</header>
+	<!--  Header End -->
+
+	<main>
+		<!--start the project-->
+		<div id="main-wrapper" class=" flex">
+			<aside id="application-sidebar-brand"
+				class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 fixed top-0 with-vertical h-screen z-[999] flex-shrink-0 border-r-[1px] w-[270px] border-gray-400  bg-white left-sidebar   transition-all duration-300 xl:relative">
+				<!-- ---------------------------------- -->
+				<!-- Start Vertical Layout Sidebar -->
+				<!-- ---------------------------------- -->
+				<div class="scroll-sidebar" data-simplebar="">
+					<div class="px-6 mt-8">
+						<nav class=" w-full flex flex-col sidebar-nav">
+							<ul id="sidebarnav" class="text-gray-600 text-sm">
+								<li class="text-xs font-bold pb-4">
+									<i class="ti ti-dots nav-small-cap-icon text-lg hidden text-center"></i>
+									<span class="font-bold text-base">Správca súťaže</span>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md  w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./index.html">
+										<img src="./assets/images/sutaze.png" alt="" class="w-4">
+										<span>Súťaže</span>
+									</a>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./components/buttons.html">
+										<img src="./assets/images/timy.png" alt="" class="w-4">
+										<span>Tímy</span>
+									</a>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./components/alerts.html">
+										<img src="./assets/images/hraci.png" alt="" class="w-4">
+										<span>Hráči</span>
+									</a>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./components/cards.html">
+										<img src="./assets/images/rozhodcovia.png" alt="" class="w-4">
+										<span>Rozhodcovia</span>
+									</a>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./components/forms.html">
+										<img src="./assets/images/tresty.png" alt="" class="w-4">
+										<span>Tresty</span>
+									</a>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./components/typography.html">
+										<img src="./assets/images/pravidla.png" alt="" class="w-4">
+										<span>Pravidlá</span>
+									</a>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./pages/authentication-login.html">
+										<img src="./assets/images/rozhodnutia.png" alt="" class="w-4">
+										<span>Rozhodnutia DK</span>
+									</a>
+								</li>
+
+								<li class="sidebar-item">
+									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./pages/authentication-register.html">
+										<img src="./assets/images/pristupy.png" alt="" class="w-4">
+										<span>Prístupy</span>
+									</a>
+								</li>
+
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<!-- </aside> -->
+			</aside>
+			<div class=" w-full page-wrapper overflow-hidden">
+
+				<!-- Main Content -->
+				<main class="h-full overflow-y-auto  max-w-full  pt-4">
+					<div class="container full-container py-5 flex flex-col gap-6">
+						<div class="grid grid-cols-1 lg:gap-x-6 gap-x-0 lg:gap-y-0 gap-y-6">
+							<div class="col-span-2">
+
+								<ul class="icon-nav flex items-center gap-4 pb-6">
+									<li class="relative xl:hidden">
+										<a class="text-xl  icon-hover cursor-pointer text-heading" id="headerCollapse"
+											data-hs-overlay="#application-sidebar-brand"
+											aria-controls="application-sidebar-brand" aria-label="Toggle navigation"
+											href="javascript:void(0)">
+											<i class="ti ti-menu-2 relative z-1"></i>
+										</a>
+									</li>
+								</ul>
+
+								<div class="card h-full">
+									<div class="card-body">
+										<h4 class="text-gray-600 text-lg font-semibold mb-6">Recent Transaction</h4>
+										<div class="relative overflow-x-auto">
+											<!-- table -->
+											<table class="text-left w-full whitespace-nowrap text-sm">
+												<thead class="text-gray-700">
+													<tr class="font-semibold text-gray-600">
+														<th scope="col" class="p-4">Id</th>
+														<th scope="col" class="p-4">Assigned</th>
+														<th scope="col" class="p-4">Name</th>
+														<th scope="col" class="p-4">Priority</th>
+														<th scope="col" class="p-4">Budget</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td class="p-4 font-semibold text-gray-600 ">1</td>
+														<td class="p-4">
+															<div class="flex flex-col gap-1">
+																<h3 class=" font-semibold text-gray-600">Sunil Joshi
+																</h3>
+																<span class="font-normal text-gray-500">Web
+																	Designer</span>
+															</div>
+														</td>
+														<td class="p-4">
+															<span class="font-normal  text-gray-500">Elite Admin</span>
+														</td>
+														<td class="p-4">
+															<span
+																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold bg-blue-600 text-white">Low</span>
+														</td>
+														<td class="p-4">
+															<span
+																class="font-semibold text-base text-gray-600">$3.9</span>
+														</td>
+													</tr>
+													<tr>
+														<td class="p-4 font-semibold text-gray-600 ">2</td>
+														<td class="p-4">
+															<div class="flex flex-col gap-1">
+																<h3 class="font-semibold text-gray-600">Andrew
+																	McDownland</h3>
+																<span class="font-normal text-gray-500">Project
+																	Manager</span>
+															</div>
+														</td>
+														<td class="p-4">
+															<span class="font-normal text-gray-500">Real Homes WP
+																Theme</span>
+														</td>
+														<td class="p-4">
+															<span
+																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold text-white bg-cyan-500">Medium</span>
+														</td>
+														<td class="p-4">
+															<span
+																class="font-semibold text-base text-gray-600">$24.5k</span>
+														</td>
+													</tr>
+													<tr>
+														<td class="p-4 font-semibold text-gray-600 ">3</td>
+														<td class="p-4">
+															<div class="flex flex-col gap-1">
+																<h3 class="font-semibold text-gray-600">Christopher
+																	Jamil</h3>
+																<span class="font-normal text-sm text-gray-500">Project
+																	Manager</span>
+															</div>
+														</td>
+														<td class="p-4">
+															<span class="font-normal text-gray-500">MedicalPro WP
+																Theme</span>
+														</td>
+														<td class="p-4 ">
+															<span
+																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold text-white bg-red-500">High</span>
+														</td>
+														<td class="p-4">
+															<span
+																class="font-semibold text-base text-gray-600">$12.8k</span>
+														</td>
+													</tr>
+													<tr>
+														<td class="p-4 font-semibold text-gray-600 ">4</td>
+														<td class="p-4">
+															<div class="flex flex-col gap-1">
+																<h3 class="font-semibold text-gray-600">Nirav Joshi</h3>
+																<span class="font-normal text-sm text-gray-500">Frontend
+																	Engineer</span>
+															</div>
+														</td>
+														<td class="p-4">
+															<span class="font-normal text-sm text-gray-500">Hosting
+																Press HTML</span>
+														</td>
+														<td class="p-4">
+															<span
+																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold text-white bg-teal-500">Critical</span>
+														</td>
+														<td class="p-4">
+															<span
+																class="font-semibold text-base text-gray-600">$2.4k</span>
+														</td>
+													</tr>
+
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<footer>
+							<p class="text-base text-gray-500 font-normal p-3 text-center">
+								Design and Developed by <a href="https://adminmart.com/" target="_blank"
+									class="text-blue-600 underline hover:text-blue-700">AdminMart.com</a>
+							</p>
+						</footer>
+					</div>
+
+
+				</main>
+				<!-- Main Content End -->
+
+			</div>
+		</div>
+		<!--end of project-->
+	</main>
+
+
+
+	<script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+	<script src="./assets/libs/simplebar/dist/simplebar.min.js"></script>
+	<script src="./assets/libs/iconify-icon/dist/iconify-icon.min.js"></script>
+	<script src="./assets/libs/@preline/dropdown/index.js"></script>
+	<script src="./assets/libs/@preline/overlay/index.js"></script>
+	<script src="./assets/js/sidebarmenu.js"></script>
+
+	<script src="./assets/js/dashboard.js"></script>
+	<!-- <div class="hs-overlay-backdrop"></div> -->
+</body>
+
+</html>

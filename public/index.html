@@ -17,15 +17,15 @@
 	<title>Modernize TailwindCSS HTML Admin Template</title>
 </head>
 
-<body class=" bg-white">
+<body>
 
 	<!--  Header Start -->
-	<header class="w-full text-sm py-5 xl:px-9 px-5 border-b-2">
+	<header class="w-full text-sm py-5 xl:px-9 px-5 border-b-2 shadow-md bg-white">
 
 
 		<!-- ========== HEADER ========== -->
 
-		<nav class=" w-full bg-gray-800  flex items-center justify-between" aria-label="Global">
+		<nav class=" w-full flex items-center justify-between" aria-label="Global">
 
 			<a href="#" class="flex items-center">
 
@@ -61,7 +61,7 @@
 								<p class="text-sm text-gray-500">My Task</p>
 							</a>
 							<div class="px-4 mt-[7px] grid">
-								<a href="../../pages/authentication-login.html"
+								<a href="./pages/authentication-login.html"
 									class="btn-outline-primary w-full hover:bg-blue-600 hover:text-white">Logout</a>
 							</div>
 
@@ -73,7 +73,6 @@
 			</div>
 		</nav>
 
-		<!-- ========== END HEADER ========== -->
 	</header>
 	<!--  Header End -->
 
@@ -81,7 +80,7 @@
 		<!--start the project-->
 		<div id="main-wrapper" class=" flex">
 			<aside id="application-sidebar-brand"
-				class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 fixed top-0 with-vertical h-screen z-[999] flex-shrink-0 border-r-[1px] w-[270px] border-gray-400  bg-white left-sidebar   transition-all duration-300 xl:relative">
+				class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 fixed top-0 with-vertical h-screen z-100 flex-shrink-0 border-r-[1px] w-[270px] border-gray-400  bg-white left-sidebar   transition-all duration-300 xl:relative">
 				<!-- ---------------------------------- -->
 				<!-- Start Vertical Layout Sidebar -->
 				<!-- ---------------------------------- -->
@@ -95,7 +94,7 @@
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md  w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md  w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
 										href="./index.html">
 										<img src="./assets/images/sutaze.png" alt="" class="w-4">
 										<span>Súťaže</span>
@@ -103,15 +102,15 @@
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
-										href="./components/buttons.html">
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+										href="./components/timy.html">
 										<img src="./assets/images/timy.png" alt="" class="w-4">
 										<span>Tímy</span>
 									</a>
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
 										href="./components/alerts.html">
 										<img src="./assets/images/hraci.png" alt="" class="w-4">
 										<span>Hráči</span>
@@ -119,7 +118,7 @@
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
 										href="./components/cards.html">
 										<img src="./assets/images/rozhodcovia.png" alt="" class="w-4">
 										<span>Rozhodcovia</span>
@@ -127,7 +126,7 @@
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
 										href="./components/forms.html">
 										<img src="./assets/images/tresty.png" alt="" class="w-4">
 										<span>Tresty</span>
@@ -135,7 +134,7 @@
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
 										href="./components/typography.html">
 										<img src="./assets/images/pravidla.png" alt="" class="w-4">
 										<span>Pravidlá</span>
@@ -143,7 +142,7 @@
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
 										href="./pages/authentication-login.html">
 										<img src="./assets/images/rozhodnutia.png" alt="" class="w-4">
 										<span>Rozhodnutia DK</span>
@@ -151,7 +150,7 @@
 								</li>
 
 								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-bold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
+									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:text-blue-600 hover:bg-blue-500"
 										href="./pages/authentication-register.html">
 										<img src="./assets/images/pristupy.png" alt="" class="w-4">
 										<span>Prístupy</span>
@@ -168,134 +167,221 @@
 			<div class=" w-full page-wrapper overflow-hidden">
 
 				<!-- Main Content -->
-				<main class="h-full overflow-y-auto  max-w-full  pt-4">
+				<section class="h-full overflow-y-auto  max-w-full">
+
 					<div class="container full-container py-5 flex flex-col gap-6">
-						<div class="grid grid-cols-1 lg:gap-x-6 gap-x-0 lg:gap-y-0 gap-y-6">
-							<div class="col-span-2">
 
-								<ul class="icon-nav flex items-center gap-4 pb-6">
-									<li class="relative xl:hidden">
-										<a class="text-xl  icon-hover cursor-pointer text-heading" id="headerCollapse"
-											data-hs-overlay="#application-sidebar-brand"
-											aria-controls="application-sidebar-brand" aria-label="Toggle navigation"
-											href="javascript:void(0)">
-											<i class="ti ti-menu-2 relative z-1"></i>
-										</a>
-									</li>
-								</ul>
+						<ul class="icon-nav flex items-center gap-4 pb-6">
+							<li class="relative xl:hidden">
+								<a class="text-xl  icon-hover cursor-pointer text-heading" id="headerCollapse"
+									data-hs-overlay="#application-sidebar-brand"
+									aria-controls="application-sidebar-brand" aria-label="Toggle navigation"
+									href="javascript:void(0)">
+									<i class="ti ti-menu-2 relative z-1"></i>
+								</a>
+							</li>
+						</ul>
 
-								<div class="card h-full">
-									<div class="card-body">
-										<h4 class="text-gray-600 text-lg font-semibold mb-6">Recent Transaction</h4>
-										<div class="relative overflow-x-auto">
-											<!-- table -->
-											<table class="text-left w-full whitespace-nowrap text-sm">
-												<thead class="text-gray-700">
-													<tr class="font-semibold text-gray-600">
-														<th scope="col" class="p-4">Id</th>
-														<th scope="col" class="p-4">Assigned</th>
-														<th scope="col" class="p-4">Name</th>
-														<th scope="col" class="p-4">Priority</th>
-														<th scope="col" class="p-4">Budget</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td class="p-4 font-semibold text-gray-600 ">1</td>
-														<td class="p-4">
-															<div class="flex flex-col gap-1">
-																<h3 class=" font-semibold text-gray-600">Sunil Joshi
-																</h3>
-																<span class="font-normal text-gray-500">Web
-																	Designer</span>
-															</div>
-														</td>
-														<td class="p-4">
-															<span class="font-normal  text-gray-500">Elite Admin</span>
-														</td>
-														<td class="p-4">
-															<span
-																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold bg-blue-600 text-white">Low</span>
-														</td>
-														<td class="p-4">
-															<span
-																class="font-semibold text-base text-gray-600">$3.9</span>
-														</td>
-													</tr>
-													<tr>
-														<td class="p-4 font-semibold text-gray-600 ">2</td>
-														<td class="p-4">
-															<div class="flex flex-col gap-1">
-																<h3 class="font-semibold text-gray-600">Andrew
-																	McDownland</h3>
-																<span class="font-normal text-gray-500">Project
-																	Manager</span>
-															</div>
-														</td>
-														<td class="p-4">
-															<span class="font-normal text-gray-500">Real Homes WP
-																Theme</span>
-														</td>
-														<td class="p-4">
-															<span
-																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold text-white bg-cyan-500">Medium</span>
-														</td>
-														<td class="p-4">
-															<span
-																class="font-semibold text-base text-gray-600">$24.5k</span>
-														</td>
-													</tr>
-													<tr>
-														<td class="p-4 font-semibold text-gray-600 ">3</td>
-														<td class="p-4">
-															<div class="flex flex-col gap-1">
-																<h3 class="font-semibold text-gray-600">Christopher
-																	Jamil</h3>
-																<span class="font-normal text-sm text-gray-500">Project
-																	Manager</span>
-															</div>
-														</td>
-														<td class="p-4">
-															<span class="font-normal text-gray-500">MedicalPro WP
-																Theme</span>
-														</td>
-														<td class="p-4 ">
-															<span
-																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold text-white bg-red-500">High</span>
-														</td>
-														<td class="p-4">
-															<span
-																class="font-semibold text-base text-gray-600">$12.8k</span>
-														</td>
-													</tr>
-													<tr>
-														<td class="p-4 font-semibold text-gray-600 ">4</td>
-														<td class="p-4">
-															<div class="flex flex-col gap-1">
-																<h3 class="font-semibold text-gray-600">Nirav Joshi</h3>
-																<span class="font-normal text-sm text-gray-500">Frontend
-																	Engineer</span>
-															</div>
-														</td>
-														<td class="p-4">
-															<span class="font-normal text-sm text-gray-500">Hosting
-																Press HTML</span>
-														</td>
-														<td class="p-4">
-															<span
-																class="inline-flex items-center py-[3px] px-[10px] rounded-2xl font-semibold text-white bg-teal-500">Critical</span>
-														</td>
-														<td class="p-4">
-															<span
-																class="font-semibold text-base text-gray-600">$2.4k</span>
-														</td>
-													</tr>
+						<div class="flex justify-between p-6">
+							<h2 class="md:text-xl text-lg font-extrabold transition-all">Ligy a turnaje</h2>
+							<a href="#" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200">PRIDAŤ LIGU / TURNAJ</a>
+						</div>
 
-												</tbody>
-											</table>
-										</div>
-									</div>
-								</div>
+						<div class="card-body">
+							<div class="flex justify-between mb-6">
+								<h4 class="text-lg font-bold">Hokejová liga Čaňa <span class="text-sm font-light px-1">(Súťaž)</span></h4>
+								<a href="#" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-cyan-200 hover:bg-cyan-500 text-white">PRIDAŤ NOVÚ SEZÓNU</a>
+							</div>
+							<div class="relative overflow-x-auto">
+								<!-- table -->
+								<table class="text-left w-full whitespace-nowrap text-sm">
+									<thead class="bg-table-1 text-white">
+										<tr class="font-semibold">
+											<th scope="col" class="p-4 text-center">Ročník</th>
+											<th scope="col" class="p-4 text-center">Rok / sezóna</th>
+											<th scope="col" class="p-4 text-center">Termín</th>
+											<th scope="col" class="p-4 text-center">Stav</th>
+											<th scope="col" class="p-4 text-center">Počet tímov</th>
+											<th scope="col" class="p-4 text-center">Systém</th>
+											<th scope="col" class="p-4 text-center"></th>
+											<th scope="col" class="p-4 text-center"></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="text-center">
+											<td class="p-4 font-semibold">1.</td>
+											<td class="p-4 font-semibold">2021 / 2022</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="./assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+										<tr class="text-center bg-table-2">
+											<td class="p-4 font-semibold">2.</td>
+											<td class="p-4 font-semibold">2022 / 2023</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="./assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+										<tr class="text-center">
+											<td class="p-4 font-semibold">3.</td>
+											<td class="p-4 font-semibold">2023 / 2024</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="./assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+
+						<div class="card-body">
+							<div class="flex justify-between mb-6">
+								<h4 class="text-lg font-bold">Rybníkový hokej <span class="text-sm font-light px-1">(Turnaj)</span></h4>
+								<a href="#" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-cyan-200 hover:bg-cyan-500 text-white">PRIDAŤ NOVÚ SEZÓNU</a>
+							</div>
+							<div class="relative overflow-x-auto">
+								<!-- table -->
+								<table class="text-left w-full whitespace-nowrap text-sm">
+									<thead class="bg-table-1 text-white">
+										<tr class="font-semibold">
+											<th scope="col" class="p-4 text-center">Ročník</th>
+											<th scope="col" class="p-4 text-center">Rok / sezóna</th>
+											<th scope="col" class="p-4 text-center">Termín</th>
+											<th scope="col" class="p-4 text-center">Stav</th>
+											<th scope="col" class="p-4 text-center">Počet tímov</th>
+											<th scope="col" class="p-4 text-center">Systém</th>
+											<th scope="col" class="p-4 text-center"></th>
+											<th scope="col" class="p-4 text-center"></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="text-center">
+											<td class="p-4 font-semibold">1.</td>
+											<td class="p-4 font-semibold">2021 / 2022</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="./assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+										<tr class="text-center bg-table-2">
+											<td class="p-4 font-semibold">2.</td>
+											<td class="p-4 font-semibold">2022 / 2023</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">10</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="./assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+
+						<div class="card-body">
+							<div class="flex justify-between mb-6">
+								<h4 class="text-lg font-bold">Bago turnaj <span class="text-sm font-light px-1">(Turnaj)</span></h4>
+								<a href="#" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-cyan-200 hover:bg-cyan-500 text-white">PRIDAŤ NOVÚ SEZÓNU</a>
+							</div>
+							<div class="relative overflow-x-auto">
+								<!-- table -->
+								<table class="text-left w-full whitespace-nowrap text-sm">
+									<thead class="bg-table-1 text-white">
+										<tr class="font-semibold">
+											<th scope="col" class="p-4 text-center">Ročník</th>
+											<th scope="col" class="p-4 text-center">Rok / sezóna</th>
+											<th scope="col" class="p-4 text-center">Termín</th>
+											<th scope="col" class="p-4 text-center">Stav</th>
+											<th scope="col" class="p-4 text-center">Počet tímov</th>
+											<th scope="col" class="p-4 text-center">Systém</th>
+											<th scope="col" class="p-4 text-center"></th>
+											<th scope="col" class="p-4 text-center"></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="text-center">
+											<td class="p-4 font-semibold">1.</td>
+											<td class="p-4 font-semibold">2021 / 2022</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">16</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="./assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+										<tr class="text-center bg-table-2">
+											<td class="p-4 font-semibold">2.</td>
+											<td class="p-4 font-semibold">2022 / 2023</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">18</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="./assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
 							</div>
 						</div>
 
@@ -308,7 +394,7 @@
 					</div>
 
 
-				</main>
+				</section>
 				<!-- Main Content End -->
 
 			</div>

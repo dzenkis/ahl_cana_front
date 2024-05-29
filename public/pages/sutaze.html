@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html   lang="en" >
+<html lang="en">
 
 <head>
 	<!-- Required meta tags -->
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- Favicon icon-->
-<link rel="shortcut icon" type="image/png" href="../assets/images/logo.png" />
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
-  rel="stylesheet" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
-<!-- Core Css -->
-<link rel="stylesheet" href="../assets/css/theme.css" />
-<link rel="stylesheet" href="../assets/css/nice-select.css">
+	<!-- Favicon icon-->
+	<link rel="shortcut icon" type="image/png" href="../assets/images/logo.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+	<!-- Core Css -->
+	<link rel="stylesheet" href="../assets/css/theme.css" />
 	<title>AHL ČAŇA</title>
 </head>
 
-<body class="DEFAULT_THEME">
+<body>
+
+	<!--  Header Start -->
 	<header class="w-full text-sm py-5 xl:px-9 px-10 border-b-2 shadow-md bg-white">
 
 		<!-- ========== HEADER ========== -->
@@ -82,7 +83,7 @@
 				<!-- ---------------------------------- -->
 				<!-- Start Vertical Layout Sidebar -->
 				<!-- ---------------------------------- -->
-				<div class="scroll-sidebar">
+				<div class="scroll-sidebar" data-simplebar="">
 					<div class="px-6 mt-8">
 						<nav class=" w-full flex flex-col sidebar-nav">
 							<ul id="sidebarnav" class="text-gray-600 text-sm">
@@ -93,7 +94,7 @@
 
 								<li class="sidebar-item">
 									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md  w-full flex items-center hover:bg-table-2"
-										href="./sutaze.html">
+										href="#">
 										<img src="../assets/images/sutaze.png" alt="" class="w-4">
 										<span>Súťaže</span>
 									</a>
@@ -109,7 +110,7 @@
 
 								<li class="sidebar-item">
 									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="#">
+										href="./hraci.html">
 										<img src="../assets/images/hraci.png" alt="" class="w-4">
 										<span>Hráči</span>
 									</a>
@@ -180,58 +181,42 @@
 							</li>
 						</ul>
 
+						<div class="flex flex-col md:flex-row items-center justify-between container gap-8">
+							<h2 class="text-2xl font-extrabold transition-all">Ligy a turnaje</h2>
+							<a href="#" class="rounded-md text-sm py-3 px-4 mr-1 text-center font-bold bg-brown-100 hover:bg-brown-200">PRIDAŤ LIGU / TURNAJ</a>
+						</div>
+
 						<div class="card-body">
-							<div class="flex justify-between mb-6 flex-col xl:flex-row items-center gap-8">
-
-								<div class="flex items-center gap-6 flex-col md:flex-row">
-									<h4 class="text-2xl transition-all font-bold">Hráči</h4>
-
-									<a href="#" class="rounded-md text-sm py-2 px-10 text-center text-white font-bold bg-cyan-200 hover:bg-cyan-600">HRÁČI</a>
-
-									<a href="#" class="rounded-md text-sm py-2 px-10 text-center text-table-1 font-bold">BRANKÁRI</a>
-								</div>
-
-								<div class="flex flex-col md:flex-row gap-6 items-center">
-									<div>
-										<select>
-											<option data-display="Filtruj podľa tímu">Filtruj podľa tímu</option>
-											<option value="1">Some option</option>
-											<option value="2">Another option</option>
-											<option value="3" disabled>A disabled option</option>
-											<option value="4">Potato</option>
-									 	</select>
-									</div>
-									<div class="relative"> 
-										<input type="text" placeholder="Vyhľadaj podľa mena" class="py-3 pl-8 px-4 border border-blue-1 bg-white rounded-lg shadow-sm text-sm bg-lupa bg-no-repeat bg-[center_left_0.5rem]">
-									</div>
-									<a href="#" class="rounded-md text-sm py-4 px-12 text-center font-bold bg-brown-100 hover:bg-brown-200">PRIDAŤ TÍM</a>
-								</div>
-
+							<div class="flex justify-between mb-6">
+								<h4 class=" text-lg font-bold pr-4">Hokejová liga Čaňa <span class="text-sm font-light px-1">(Súťaž)</span></h4>
+								<a href="#" class="rounded-md text-sm py-3 px-4 text-center font-bold bg-cyan-200 hover:bg-cyan-500 text-white">PRIDAŤ NOVÚ SEZÓNU</a>
 							</div>
 							<div class="relative overflow-x-auto">
 								<!-- table -->
 								<table class="text-left w-full whitespace-nowrap text-sm">
 									<thead class="bg-table-1 text-white">
 										<tr class="font-semibold">
+											<th scope="col" class="p-4 text-center">Ročník</th>
+											<th scope="col" class="p-4 text-center">Rok / sezóna</th>
+											<th scope="col" class="p-4 text-center">Termín</th>
+											<th scope="col" class="p-4 text-center">Stav</th>
+											<th scope="col" class="p-4 text-center">Počet tímov</th>
+											<th scope="col" class="p-4 text-center">Systém</th>
 											<th scope="col" class="p-4 text-center"></th>
-											<th scope="col" class="p-4 text-center">Logo</th>
-											<th scope="col" class="p-4 text-center">Názov</th>
-											<th scope="col" class="p-4 text-center">Manažér</th>
-											<th scope="col" class="p-4 text-center">Hráčov v tíme</th>
-											<th scope="col" class="p-4 text-center">Ligové sezóny</th>
-											<th scope="col" class="p-4 text-center">Turnaje</th>
 											<th scope="col" class="p-4 text-center"></th>
 										</tr>
 									</thead>
 									<tbody>
-										<tr class="text-center bg-table-2">
+										<tr class="text-center">
 											<td class="p-4 font-semibold">1.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HK TRSTENÉ PRI HORNÁDE</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
+											<td class="p-4 font-semibold">2021 / 2022</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
 											<td class="p-4 font-semibold">
 												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
 													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
@@ -239,14 +224,16 @@
 											</td>
 										</tr>
 
-										<tr class="text-center">
+										<tr class="text-center bg-table-2">
 											<td class="p-4 font-semibold">2.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC KLIVENT SLANEC</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">2</td>
+											<td class="p-4 font-semibold">2022 / 2023</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
 											<td class="p-4 font-semibold">
 												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
 													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
@@ -254,149 +241,16 @@
 											</td>
 										</tr>
 
-										<tr class="text-center bg-table-2">
+										<tr class="text-center">
 											<td class="p-4 font-semibold">3.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC CASSOVIA KINGS</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">0</td>
+											<td class="p-4 font-semibold">2023 / 2024</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
 											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
 											</td>
-										</tr>
-
-										<tr class="text-center">
-											<td class="p-4 font-semibold">4.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC KLIMAVEX KOŠICE</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">5</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center bg-table-2">
-											<td class="p-4 font-semibold">5.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">KH LAKER ČAŇA</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">1</td>
-											<td class="p-4 font-semibold">1</td>
-											<td class="p-4 font-semibold">6</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center">
-											<td class="p-4 font-semibold">6.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC HANISKÁ FLYERS</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">5</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center bg-table-2">
-											<td class="p-4 font-semibold">7.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HK TRSTENÉ PRI HORNÁDE</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center">
-											<td class="p-4 font-semibold">8.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC KLIVENT SLANEC</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">2</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center bg-table-2">
-											<td class="p-4 font-semibold">9.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC CASSOVIA KINGS</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center">
-											<td class="p-4 font-semibold">10.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC KLIMAVEX KOŠICE</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">0</td>
-											<td class="p-4 font-semibold">5</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center bg-table-2">
-											<td class="p-4 font-semibold">11.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">KH LAKER ČAŇA</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">1</td>
-											<td class="p-4 font-semibold">1</td>
-											<td class="p-4 font-semibold">7</td>
-											<td class="p-4 font-semibold">
-												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-												</a>
-											</td>
-										</tr>
-
-										<tr class="text-center">
-											<td class="p-4 font-semibold">12.</td>
-											<td class="p-4 font-bold"></td>
-											<td class="p-4 font-semibold text-left">HC HANISKÁ FLYERS</td>
-											<td class="p-4 font-semibold">Peter Petrovský</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">3</td>
-											<td class="p-4 font-semibold">5</td>
 											<td class="p-4 font-semibold">
 												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
 													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
@@ -409,10 +263,127 @@
 							</div>
 						</div>
 
+
+						<div class="card-body">
+							<div class="flex justify-between mb-6">
+								<h4 class=" text-lg font-bold pr-4">Rybníkový hokej <span class="text-sm font-light px-1">(Turnaj)</span></h4>
+								<a href="#" class="rounded-md text-sm py-3 px-4 text-center font-bold bg-cyan-200 hover:bg-cyan-500 text-white">PRIDAŤ NOVÚ SEZÓNU</a>
+							</div>
+							<div class="relative overflow-x-auto">
+								<!-- table -->
+								<table class="text-left w-full whitespace-nowrap text-sm">
+									<thead class="bg-table-1 text-white">
+										<tr class="font-semibold">
+											<th scope="col" class="p-4 text-center">Ročník</th>
+											<th scope="col" class="p-4 text-center">Rok / sezóna</th>
+											<th scope="col" class="p-4 text-center">Termín</th>
+											<th scope="col" class="p-4 text-center">Stav</th>
+											<th scope="col" class="p-4 text-center">Počet tímov</th>
+											<th scope="col" class="p-4 text-center">Systém</th>
+											<th scope="col" class="p-4 text-center"></th>
+											<th scope="col" class="p-4 text-center"></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="text-center">
+											<td class="p-4 font-semibold">1.</td>
+											<td class="p-4 font-semibold">2021 / 2022</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">8</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+										<tr class="text-center bg-table-2">
+											<td class="p-4 font-semibold">2.</td>
+											<td class="p-4 font-semibold">2022 / 2023</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">10</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
 						</div>
+
+
+						<div class="card-body">
+							<div class="flex justify-between mb-6">
+								<h4 class=" text-lg font-bold pr-6">Bago turnaj <span class="text-sm font-light px-1">(Turnaj)</span></h4>
+								<a href="#" class="rounded-md text-sm py-3 px-4 text-center font-bold bg-cyan-200 hover:bg-cyan-500 text-white">PRIDAŤ NOVÚ SEZÓNU</a>
+							</div>
+							<div class="relative overflow-x-auto">
+								<!-- table -->
+								<table class="text-left w-full whitespace-nowrap text-sm">
+									<thead class="bg-table-1 text-white">
+										<tr class="font-semibold">
+											<th scope="col" class="p-4 text-center">Ročník</th>
+											<th scope="col" class="p-4 text-center">Rok / sezóna</th>
+											<th scope="col" class="p-4 text-center">Termín</th>
+											<th scope="col" class="p-4 text-center">Stav</th>
+											<th scope="col" class="p-4 text-center">Počet tímov</th>
+											<th scope="col" class="p-4 text-center">Systém</th>
+											<th scope="col" class="p-4 text-center"></th>
+											<th scope="col" class="p-4 text-center"></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="text-center">
+											<td class="p-4 font-semibold">1.</td>
+											<td class="p-4 font-semibold">2021 / 2022</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">16</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+										<tr class="text-center bg-table-2">
+											<td class="p-4 font-semibold">2.</td>
+											<td class="p-4 font-semibold">2022 / 2023</td>
+											<td class="p-4 font-semibold">1.9.2021 - 30.5.2022</td>
+											<td class="p-4 font-semibold">Ukončený</td>
+											<td class="p-4 font-semibold">18</td>
+											<td class="p-4 font-semibold">3-2-1-0</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="underline text-cyan-500">Kopírovať</a>
+											</td>
+											<td class="p-4 font-semibold">
+												<a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
+													<img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
+												</a>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+
 
 					</div>
 
@@ -421,6 +392,7 @@
 				<!-- Main Content End -->
 
 			</div>
+
 		</div>
 		<!--end of project-->
 	</main>
@@ -441,7 +413,7 @@
 
 			<div class="flex justify-center">
 				<a href="#">
-					<img src="../assets/images/ahl_cana.png" alt="">
+					<img src="./assets/images/ahl_cana.png" alt="">
 				</a>
 			</div>
 
@@ -455,22 +427,16 @@
 		
 	</footer>
 
-	
-<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
-<script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
-<script src="../assets/libs/iconify-icon/dist/iconify-icon.min.js"></script>
-<script src="../assets/libs/@preline/dropdown/index.js"></script>
-<script src="../assets/libs/@preline/overlay/index.js"></script>
-<script src="../assets/js/sidebarmenu.js"></script>
-<script src="../assets/js/jquery.nice-select.js"></script>
-<script>
-	$(document).ready(function() {
-  $('select').niceSelect();
-});
-</script>
 
+	<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+	<script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+	<script src="../assets/libs/iconify-icon/dist/iconify-icon.min.js"></script>
+	<script src="../assets/libs/@preline/dropdown/index.js"></script>
+	<script src="../assets/libs/@preline/overlay/index.js"></script>
+	<script src="../assets/js/sidebarmenu.js"></script>
 
-
+	<script src="../assets/js/dashboard.js"></script>
+	<!-- <div class="hs-overlay-backdrop"></div> -->
 </body>
 
 </html>

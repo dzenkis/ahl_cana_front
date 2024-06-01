@@ -1455,6 +1455,14 @@ select {
   padding-inline-end: 2.25rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1810,6 +1818,14 @@ select {
 @media (min-width: 968px) {
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-12 {
+    height: 3rem;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
   }
 
   .lg\:grid-cols-3 {

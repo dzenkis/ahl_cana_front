@@ -955,20 +955,8 @@ select {
   margin-top: 0.125rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mt-8 {
@@ -1021,10 +1009,6 @@ select {
 
 .h-9 {
   height: 2.25rem;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .h-full {
@@ -1102,10 +1086,6 @@ select {
   max-width: 28rem;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -1129,10 +1109,6 @@ select {
 
 .list-none {
   list-style-type: none;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1173,25 +1149,6 @@ select {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-x-0 {
-  -moz-column-gap: 0px;
-       column-gap: 0px;
-}
-
-.gap-x-1 {
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
-}
-
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
 }
 
 .overflow-hidden {
@@ -1242,11 +1199,6 @@ select {
   border-radius: 0.75rem;
 }
 
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -1276,10 +1228,6 @@ select {
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(229 234 239 / var(--tw-border-opacity));
-}
-
-.border-transparent {
-  border-color: transparent;
 }
 
 .bg-black {
@@ -1426,11 +1374,6 @@ select {
   padding-right: 1.5rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1488,10 +1431,6 @@ select {
   padding-bottom: 2rem;
 }
 
-.pe-10 {
-  padding-inline-end: 2.5rem;
-}
-
 .pe-9 {
   padding-inline-end: 2.25rem;
 }
@@ -1506,10 +1445,6 @@ select {
 
 .pl-8 {
   padding-left: 2rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
 }
 
 .pr-4 {
@@ -1838,11 +1773,6 @@ select {
   color: rgb(229 234 239 / var(--tw-text-opacity));
 }
 
-:is(.dark .dark\:text-gray-500) {
-  --tw-text-opacity: 1;
-  color: rgb(90 106 133 / var(--tw-text-opacity));
-}
-
 @media (min-width: 500px) {
   .sm\:\[--trigger\:hover\] {
     --trigger: hover;
@@ -1889,25 +1819,12 @@ select {
     width: 3rem;
   }
 
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:gap-12 {
     gap: 3rem;
-  }
-
-  .lg\:gap-x-6 {
-    -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
-  }
-
-  .lg\:gap-y-0 {
-    row-gap: 0px;
   }
 }
 

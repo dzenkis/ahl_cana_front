@@ -91,7 +91,7 @@ module.exports = {
       },
       backgroundImage: {
         'lupa': "url('../images/lupa.png')",
-      }
+      },
     },
   },
   variants: {},

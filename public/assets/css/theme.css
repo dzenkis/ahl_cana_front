@@ -1593,6 +1593,11 @@ select {
   color: rgb(52 116 137 / var(--tw-text-opacity));
 }
 
+.text-table-2 {
+  --tw-text-opacity: 1;
+  color: rgb(242 252 255 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));

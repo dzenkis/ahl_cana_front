@@ -33,10 +33,11 @@
       </a>
 
       <div class="flex items-center gap-4">
-        <h2 class="text-right hidden md:flex flex-col relative font-bold md:text-xl text-lg transition-all">
-          <span class="text-xs absolute -top-3 right-0 font-light">Správca zápasu</span>
-          Ferko Maličký
-        </h2>
+          <h2 class="text-right hidden md:flex flex-col font-bold md:text-xl text-lg transition-all">
+            <span class="text-xs font-light">Správca zápasu</span>
+            Ferko Maličký
+          </h2>
+        
         <div class="hs-dropdown relative inline-flex [--placement:bottom-right] sm:[--trigger:hover]">
           <a class="relative hs-dropdown-toggle cursor-pointer align-middle rounded-full">
             <img class="object-cover w-9 h-9 transition-all md:w-12 md:h-12 rounded-full"
@@ -124,102 +125,109 @@
             </ul>
 
             <div class="card-body">
-              <div class="flex justify-between mb-6 flex-col md:flex-row items-center gap-8">
+              <div class="flex justify-center lg:justify-between mb-6 flex-col md:flex-row items-center gap-8">
 
-                <h4 class="text-2xl transition-all font-bold">Zápasy - HL ČAŇA 2024/2025</h4>
+                <div class="flex items-center gap-6 flex-col lg:flex-row">
+
+                  <div>
+									  <h4 class="text-2xl transition-all font-bold">Zápasy - HL ČAŇA 2024/2025</h4>
+                  </div>
+
+                  <div class="flex flex-col gap-4 md:flex-row">
+                    <a href="#" class="rounded-md text-sm py-2 px-4 text-center text-table-1 font-bold">Dnes 12.3.2024</a>
+
+                    <a href="#" class="rounded-md text-sm py-2 px-4 text-center text-white bg-cyan-200 hover:bg-cyan-600 font-bold">VŠETKY ZÁPASY</a>
+
+                    <a href="#" class="rounded-md text-sm py-2 px-4 text-center text-table-1 font-bold">UŽ ODOHRANÉ</a>
+
+                    <a href="#" class="rounded-md text-sm py-2 px-4 text-center text-table-1 font-bold">BUDÚCE ZÁPASY</a>
+                  </div>
+								</div>
 
               </div>
               <div class="relative overflow-x-auto">
                 <!-- table -->
                 <table class="text-left w-full whitespace-nowrap text-sm">
-                  <thead class="bg-table-1 text-white">
-                    <tr class="font-semibold">
-                      <th scope="col" class="p-4 text-center">Dátum</th>
-                      <th scope="col" class="p-4 text-center">Názov</th>
-                      <th scope="col" class="p-4 text-center">Rozhodnutie</th>
-                      <th scope="col" class="p-4 text-center"></th>
-                      <th scope="col" class="p-4 text-center"></th>
-                    </tr>
-                  </thead>
                   <tbody>
                     <tr class="">
-                      <td class="p-4 py-3 font-bold text-center">17. 3. 2024</td>
-                      <td class="p-4 py-3 font-bold text-center">č. 1</td>
-                      <td class="p-4 py-3 font-semibold">Bo barz múdry bol pán brankár, tak mu komisia udelila limit...
+                      <td class="p-4 py-3 font-bold text-center text-xl">1. kolo</td>
+                      <td class="px-12 py-3 font-bold text-center">12. 3. 2024 - 17:15</td>
+                      <td class="p-4 py-3 font-semibold">
+                        <div class="flex items-center gap-2 justify-center">
+                          Hk Trstené Pri Hornáde
+                          <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                        </div>
                       </td>
-                      <td class="p-4 py-3 font-semibold"></td>
-                      <td class="p-0 py-3 text-right font-semibold">
-                        <a href=""
-                          class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-                          <img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-                        </a>
+                      <td class="p-4 py-3 font-semibold text-xl">
+                        <div class="flex flex-col items-center">
+                          1:2
+                          <span class="text-xs font-light">Ukončený</span>
+                        </div>
                       </td>
-                    </tr>
-
-                    <tr class="col-span-8">
-                      <td class="p-4 py-3 font-bold text-center">17. 3. 2024</td>
-                      <td class="p-4 py-3 font-bold text-center">č. 1</td>
-                      <td class="p-4 py-3 font-semibold">Bo barz múdry bol pán brankár, tak mu komisia udelila limit...
+                      <td class="p-4 py-3 font-semibold">
+                        <div class="flex items-center gap-2 justify-center">
+                          <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                          HC Cassovia Kings
+                        </div>
                       </td>
-                      <td class="p-4 py-3 font-semibold"></td>
-                      <td class="p-0 py-3 text-right font-semibold">
-                        <a href=""
-                          class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-                          <img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
+                      <td class="px-12 py-3 text-right font-semibold">
+                        <a href="#" class="text-green-500">
+                          <span class="underline">Upraviť zápis</span>
+                          <span class="pl-2">&rang;</span>
                         </a>
                       </td>
                     </tr>
 
                     <tr class="">
-                      <td class="p-4 py-3 font-bold text-center">17. 3. 2024</td>
-                      <td class="p-4 py-3 font-bold text-center">č. 1</td>
-                      <td class="p-4 py-3 font-semibold">Bo barz múdry bol pán brankár, tak mu komisia udelila limit...
+                      <td class="p-4 py-3 font-bold text-center text-xl"></td>
+                      <td class="px-12 py-3 font-bold text-center">12. 3. 2024 - 17:15</td>
+                      <td class="p-4 py-3 font-semibold">
+                        <div class="flex items-center gap-2 justify-center">
+                          Hk Trstené Pri Hornáde
+                          <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                        </div>
                       </td>
-                      <td class="p-4 py-3 font-semibold"></td>
-                      <td class="p-0 py-3 text-right font-semibold">
-                        <a href=""
-                          class="rounded-md text-sm py-2 px-4 text-center font-bold bg-brown-100 hover:bg-brown-200 relative">
-                          <img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
-                        </a>
+                      <td class="p-4 py-3 font-semibold text-xl">
+                        <div class="flex flex-col items-center">
+                          1:2
+                          <span class="text-xs font-light">Ukončený</span>
+                        </div>
+                      </td>
+                      <td class="p-4 py-3 font-semibold">
+                        <div class="flex items-center gap-2 justify-center">
+                          <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                          HC Cassovia Kings
+                        </div>
+                      </td>
+                      <td class="px-12 py-3 text-right font-semibold">
+                        Upraviť zápis
                       </td>
                     </tr>
 
                     <tr class="">
-                      <td class="p-4 font-bold text-center text-lg relative">
-                        <div class="text-center">
-                          <input type="text" placeholder="17. 3. 2024" class="py-3 px-4 border border-blue-1 max-w-28 bg-white rounded-lg shadow-sm text-sm">
-                          <input type="date" class="py-3 px-4 border border-blue-1 max-w-12 bg-white rounded-lg shadow-sm text-sm">
+                      <td class="p-4 py-3 font-bold text-center text-xl"></td>
+                      <td class="px-12 py-3 font-bold text-center">12. 3. 2024 - 17:15</td>
+                      <td class="p-4 py-3 font-semibold">
+                        <div class="flex items-center gap-2 justify-center">
+                          Hk Trstené Pri Hornáde
+                          <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
                         </div>
                       </td>
-                      <td class="p-4 font-bold text-base">
-                        <div class="text-center">
-                          <input type="text" placeholder="č. 4"
-                            class="py-3 px-4 border border-blue-1 max-w-16 bg-white rounded-lg shadow-sm text-sm">
+                      <td class="p-4 py-3 font-semibold text-xl">
+                        <div class="flex flex-col items-center">
+                          1:2
+                          <span class="text-xs font-light">Ukončený</span>
                         </div>
                       </td>
-                      <td class="p-4 font-bold text-base">
-                        <div class="relative">
-                          <textarea class="py-3 px-4 border w-full h-20 rounded-lg shadow-sm text-sm border-blue-1 p-2" placeholder="Rozhodnutie"></textarea>
-                           </textarea>
+                      <td class="p-4 py-3 font-semibold">
+                        <div class="flex items-center gap-2 justify-center">
+                          <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                          HC Cassovia Kings
                         </div>
                       </td>
-                      <td class="p-4 font-bold text-center text-lg"></td>
-                      <td class="p-4 pr-0 font-bold text-right text-lg">
-                        <a href="#"
-                          class="rounded-md text-sm py-4 px-8 text-center font-bold bg-brown-100 hover:bg-brown-200">PRIDAŤ</a>
+                      <td class="px-12 py-3 text-right font-semibold">
+                        Upraviť zápis
                       </td>
-                    </tr>
-
-                    <tr class="">
-
-                      <td class="p-4 font-bold text-right text-lg relative pb-8">
-                        <a href="#"
-                          class="rounded-md text-sm py-3 px-4 text-center font-bold bg-cyan-200 hover:bg-cyan-500 text-white absolute left-0 top-0">
-                          PRIDAŤ ROZHODNUTIE
-                        </a>
-                      </td>
-                      <td class="p-4 font-bold text-right text-lg"></td>
-
                     </tr>
 
                   </tbody>

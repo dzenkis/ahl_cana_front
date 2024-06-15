@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     extend:{
       colors: {
+        pink:{
+          1200: "#f8e4e4",
+        },
         blue: {
           200: "#EBF3FE",
           300: "#539BFF",
@@ -91,6 +94,9 @@ module.exports = {
       },
       backgroundImage: {
         'lupa': "url('../images/lupa.png')",
+      },
+      padding: {
+        '4.5': '4.5rem',
       },
     },
   },

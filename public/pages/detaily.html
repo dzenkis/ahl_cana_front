@@ -79,7 +79,7 @@
     <!--start the project-->
     <div id="main-wrapper" class=" flex">
       <aside id="application-sidebar-brand"
-        class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 fixed top-0 with-vertical h-screen z-100 flex-shrink-0 border-r-[1px] w-[270px] border-gray-400  bg-white left-sidebar   transition-all duration-300 xl:relative">
+        class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 fixed top-0 with-vertical h-screen z-100 flex-shrink-0 w-[270px] bg-white left-sidebar   transition-all duration-300 xl:relative">
         <!-- ---------------------------------- -->
         <!-- Start Vertical Layout Sidebar -->
         <!-- ---------------------------------- -->
@@ -88,7 +88,6 @@
             <nav class=" w-full flex flex-col sidebar-nav">
               <ul id="sidebarnav" class="text-gray-600 text-sm">
                 <li class="text-xs font-bold pb-4">
-                  <i class="ti ti-dots nav-small-cap-icon text-lg hidden text-center"></i>
                   <span class="font-bold text-base">Správca zápasu</span>
                 </li>
 
@@ -107,7 +106,7 @@
 
         <!-- </aside> -->
       </aside>
-      <div class=" w-full page-wrapper overflow-hidden">
+      <div class=" w-full page-wrapper overflow-hidden border-l-[1px] border-gray-400">
 
         <!-- Main Content -->
         <section class="h-full overflow-y-auto  max-w-full">
@@ -310,13 +309,13 @@
                 <div class="flex gap-2 items-center">
 
                   <div class="">
-                    <button id="openOverlay" class="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded-md">
+                    <button id="openOverlay1" class="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded-md">
                       TS
                     </button>
                   </div>
 
                   <div class="">
-                    <button id="openOverlay" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded-md">
+                    <button id="openOverlay2" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded-md">
                       +
                     </button>
                   </div>
@@ -649,20 +648,16 @@
                 <thead class="bg-table-2">
                   <tr class="font-semibold">
                     <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" colspan="2" class="p-4 text-left text-xl pt-8">3. Tretina <span class="text-base text-gray-500 pl-2">( 22 striel )</span></th>
-                    <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" class="p-4 text-center"></th>
+                    <th scope="col" colspan="7" class="p-4 text-left text-xl pt-8">3. Tretina <span class="text-base text-gray-500 pl-2">( 24 striel )</span></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="bg-table-2">
                     <td class="p-6 py-3 font-bold text-center"></td>
-                    <td class="px-4 py-3 font-bold text-left text-gray-500">
+                    <td class="pl-4 py-3 font-bold text-left text-gray-500">
                       12:57
-                      <span class="text-base text-table-1 pl-4">GÓL</span>
                     </td>
+                    <td class="text-base px-4 text-table-1 font-bold">GÓL</td>
                     <td class="p-6 py-3 font-semibold">
                       <div class="flex items-center gap-2">
                         <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
@@ -700,19 +695,19 @@
 
                   <tr class="bg-table-2">
                     <td class="p-6 py-3 font-bold text-center"></td>
-                    <td class="px-4 py-3 font-bold text-left text-gray-500">
-                      11:57
-                      <span class="text-base text-red-700 pl-4">T. NÁJAZD</span>
+                    <td class="pl-4 py-3 font-bold text-left text-gray-500">
+                      12:57
                     </td>
+                    <td class="text-base px-4 text-red-700 font-bold">T. NÁJAZD</td>
                     <td class="p-6 py-3 font-semibold">
                       <div class="flex items-center gap-2">
                         <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
-                        Hk Trstené Pri Hornáde
+                        HC Cassovia Kings
                       </div>
                     </td>
                     <td class="p-6 py-3 font-semibold" colspan="3">
                       <div class="flex gap-4 items-center">
-                        <div class="text-white bg-red-700 py-1 px-10">Nepremenil</div>
+                        <div class="text-white bg-red-700 py-1 px-8">Nepremenil</div>
                         <div>#83 Pišta Hotentot</div>
                       </div>
                     </td>
@@ -727,14 +722,14 @@
 
                   <tr class="bg-table-2">
                     <td class="p-6 py-3 font-bold text-center"></td>
-                    <td class="px-4 py-3 font-bold text-left text-gray-500">
+                    <td class="pl-4 py-3 font-bold text-left text-gray-500">
                       10:00
-                      <span class="text-base text-table-1 pl-4">GÓL</span>
                     </td>
+                    <td class="text-base px-4 text-table-1 font-bold">GÓL</td>
                     <td class="p-6 py-3 font-semibold">
                       <div class="flex items-center gap-2">
                         <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
-                        HC Cassovia Kings
+                        Hk Trstené Pri Hornáde
                       </div>
                     </td>
                     <td class="p-6 py-3 font-semibold">
@@ -769,26 +764,22 @@
                 </tbody>
               </table>
 
-              <!-- table OT + SO -->
+              <!-- table OT -->
               <table class="text-left w-full whitespace-nowrap text-sm py-2">
                 <thead class="">
                   <tr class="font-semibold">
                     <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" colspan="2" class="p-4 text-left text-xl pt-8">Predĺženie <span class="text-base text-gray-500 pl-2">( 20 striel )</span></th>
-                    <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" class="p-4 text-center"></th>
+                    <th scope="col" colspan="7" class="p-4 text-left text-xl pt-8">Predĺženie <span class="text-base text-gray-500 pl-2">( 20 striel )</span></th>
                   </tr>
                 </thead>
                 <tbody>
   
                   <tr class="">
                     <td class="p-6 py-3 font-bold text-center"></td>
-                    <td class="px-4 py-3 font-bold text-left text-gray-500">
-                      02:57
-                      <span class="text-base text-red-700 pl-4">TREST</span>
+                    <td class="pl-4 py-3 font-bold text-left text-gray-500">
+                      11:57
                     </td>
+                    <td class="text-base px-4 text-red-700 font-bold">TREST</td>
                     <td class="p-6 py-3 font-semibold">
                       <div class="flex items-center gap-2">
                         <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
@@ -811,44 +802,75 @@
                   </tr>
 
                 </tbody>
+              </table>
 
+                <!-- table SO -->
+              <table class="text-left w-full whitespace-nowrap text-sm py-2">
                 <thead class="bg-table-2">
                   <tr class="font-semibold">
                     <th scope="col" class="p-4 text-center"></th>
-                    <th scope="col" colspan="9" class="p-4 text-left text-xl pt-8" >Nájazdy</th>
-                    <th scope="col" class="p-4 text-center"></th>
+                    <th scope="col" colspan="7" class="p-4 text-left text-xl pt-8">Nájazdy</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="bg-table-2">
                     <td class="p-6 py-3 font-bold text-center"></td>
-                    <td class="px-4 py-3 font-bold text-left text-lg text-gray-500">
+                    <td class="pl-4 py-3 font-bold text-left text-gray-500" colspan="2">
                       1. nájazd
                     </td>
-                    <td class="p-6 py-3 font-semibold" colspan="2">
+                    <td class="p-6 py-3 font-semibold">
                       <div class="flex items-center gap-2">
                         <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
-                        Hk Trstené Pri Hornáde
+                        HC Cassovia Kings
                       </div>
                     </td>
                     <td class="p-6 py-3 font-semibold">
                       <div class="flex items-center gap-2">
-                        <img src="../assets/images/profile/user-1.jpg" class="object-cover w-10 h-10 transition-all rounded-full" alt="">
-                        #63
-                        <div>Pišta Marienčík (V)</div>
-                      </div>
-                    </td>
-
-                    <td class="p-6 py-3 font-semibold" colspan="4">
-                      <div class="flex gap-4 items-center">
-                        <div>Premenil</div>
+                        <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                        #63 <span>Pišta Marienčík (V)</span>
                       </div>
                     </td>
 
                     <td class="p-6 py-3 font-semibold">
-                      <div class="flex gap-4 items-center">
-                        <div>1:0</div>
+                      <div class="text-green-600">Premenil</div>
+                    </td>
+
+                    <td class="p-6 py-3 font-semibold">
+                      <div>1:0</div>
+                    </td>
+
+                    <td class="p-6 py-3 font-semibold">
+                      <a href="" class="rounded-md text-sm py-2 px-4 text-center font-bold bg-yellow-200 hover:bg-yellow-300 relative">
+                        <img src="../assets/images/pen.png" alt="" class="absolute left-2 top-2">
+                      </a>
+                    </td>
+
+                  </tr>
+
+                  <tr class="bg-table-2">
+                    <td class="p-6 py-3 font-bold text-center"></td>
+                    <td class="pl-4 py-3 font-bold text-left text-gray-500" colspan="2">
+                      1. nájazd
+                    </td>
+                    <td class="p-6 py-3 font-semibold">
+                      <div class="flex items-center gap-2">
+                        <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                        HC Cassovia Kings
                       </div>
+                    </td>
+                    <td class="p-6 py-3 font-semibold">
+                      <div class="flex items-center gap-2">
+                        <img src="../assets/images/profile/user-1.jpg" class="object-cover w-8 h-8 transition-all rounded-full" alt="">
+                        #63 <span>Pišta Marienčík (V)</span>
+                      </div>
+                    </td>
+
+                    <td class="p-6 py-3 font-semibold">
+                      <div class="text-red-700">Nepremenil</div>
+                    </td>
+
+                    <td class="p-6 py-3 font-semibold">
+                      <div>1:0</div>
                     </td>
 
                     <td class="p-6 py-3 font-semibold">
@@ -861,7 +883,7 @@
 
                 </tbody>
               </table>
-
+              
             </div>
           
 
@@ -906,43 +928,43 @@
 
   </footer>
 
-  <!-- overlay -->
-  <div id="overlay" class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center hidden z-100">
+  <!-- overlay1 -->
+  <div id="overlay1" class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center hidden z-100">
     <div class="bg-white rounded-lg shadow-lg w-full max-w-4xl p-6">
       <div class="flex justify-between items-center border-b pb-4">
         <h2 class="text-xl font-semibold">GÓL - HC KLIVENT SLANEC - 1. tretina</h2>
-        <button id="closeOverlay" class="text-red-600">Zrušiť udalosť</button>
+        <button id="closeOverlay1" class="text-red-600">Zrušiť udalosť</button>
       </div>
       <div class="mt-4">
         <div class="grid grid-cols-2 gap-4">
           <div class="space-y-2">
             <h3 class="font-semibold">Čas - minúty</h3>
             <div class="grid grid-cols-4 gap-2">
-              <!-- Time buttons -->
+              
               <button class="bg-blue-500 text-white rounded p-2">14</button>
               <button class="bg-blue-500 text-white rounded p-2">13</button>
               <button class="bg-blue-500 text-white rounded p-2">12</button>
-              <!-- Add more buttons as needed -->
+              
             </div>
           </div>
           <div class="space-y-2">
             <h3 class="font-semibold">Čas - sekundy</h3>
             <div class="grid grid-cols-6 gap-2">
-              <!-- Time buttons -->
+              
               <button class="bg-blue-300 text-white rounded p-2">59</button>
               <button class="bg-blue-300 text-white rounded p-2">58</button>
               <button class="bg-blue-300 text-white rounded p-2">57</button>
-              <!-- Add more buttons as needed -->
+              
             </div>
           </div>
         </div>
         <div class="mt-4">
           <h3 class="font-semibold">Súpiska</h3>
           <div class="grid grid-cols-6 gap-2">
-            <!-- Player buttons -->
+            
             <button class="bg-blue-100 text-black rounded p-2">#39 Adam Adamkovič</button>
             <button class="bg-blue-100 text-black rounded p-2">#39 Adam Adamkovič</button>
-            <!-- Add more buttons as needed -->
+            
           </div>
         </div>
         <div class="mt-4 flex justify-center space-x-4">
@@ -956,7 +978,61 @@
       </div>
     </div>
   </div>
-  <!-- overlay - end -->
+  <!-- overlay end -->
+
+
+
+  <!-- overlay2 -->
+  <div id="overlay2" class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center hidden z-100">
+    <div class="bg-white rounded-lg shadow-lg w-full max-w-4xl p-6">
+      <div class="flex justify-between items-center border-b pb-4">
+        <h2 class="text-xl font-semibold">GÓL - HC KLIVENT SLANEC - 2. tretina</h2>
+        <button id="closeOverlay2" class="text-red-600">Zrušiť udalosť</button>
+      </div>
+      <div class="mt-4">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="space-y-2">
+            <h3 class="font-semibold">Čas - minúty</h3>
+            <div class="grid grid-cols-4 gap-2">
+              
+              <button class="bg-blue-500 text-white rounded p-2">14</button>
+              <button class="bg-blue-500 text-white rounded p-2">13</button>
+              <button class="bg-blue-500 text-white rounded p-2">12</button>
+              
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h3 class="font-semibold">Čas - sekundy</h3>
+            <div class="grid grid-cols-6 gap-2">
+              
+              <button class="bg-blue-300 text-white rounded p-2">59</button>
+              <button class="bg-blue-300 text-white rounded p-2">58</button>
+              <button class="bg-blue-300 text-white rounded p-2">57</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-semibold">Súpiska</h3>
+          <div class="grid grid-cols-6 gap-2">
+            
+            <button class="bg-blue-100 text-black rounded p-2">#39 Adam Adamkovič</button>
+            <button class="bg-blue-100 text-black rounded p-2">#39 Adam Adamkovič</button>
+            
+          </div>
+        </div>
+        <div class="mt-4 flex justify-center space-x-4">
+          <button class="bg-green-500 text-white rounded px-4 py-2">Gól</button>
+          <button class="bg-yellow-500 text-white rounded px-4 py-2">Prvá asistencia</button>
+          <button class="bg-yellow-500 text-white rounded px-4 py-2">Druhá asistencia</button>
+        </div>
+        <div class="mt-4 flex justify-end">
+          <button class="bg-yellow-400 text-white rounded px-4 py-2">Nahrať udalosť</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- overlay end -->
 
   <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
   <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>

@@ -788,12 +788,7 @@ select {
 }
 
 .hs-overlay-backdrop{
-  left: 0;
-  top: 0;
-  background: rgba(0,0,0,0.5);
-  position: fixed;
-  height: 100%;
-  width: 100%;
+  opacity: 50%
 }
 
 .container {
@@ -1030,6 +1025,10 @@ select {
   min-height: 100vh;
 }
 
+.w-0 {
+  width: 0px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1262,6 +1261,10 @@ select {
 
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-l-\[1px\] {
+  border-left-width: 1px;
 }
 
 .border-r-\[1px\] {
@@ -1560,6 +1563,10 @@ select {
   padding-bottom: 2rem;
 }
 
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
 .pl-16 {
   padding-left: 4rem;
 }
@@ -1776,6 +1783,11 @@ select {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.brightness-0 {
+  --tw-brightness: brightness(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition-\[opacity\2c margin\] {
   transition-property: opacity,margin;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1982,8 +1994,16 @@ select {
     display: none;
   }
 
+  .lg\:h-10 {
+    height: 2.5rem;
+  }
+
   .lg\:h-12 {
     height: 3rem;
+  }
+
+  .lg\:w-10 {
+    width: 2.5rem;
   }
 
   .lg\:w-12 {
@@ -2072,8 +2092,5 @@ select {
     padding-right: 2.25rem;
   }
 }
-
-
-
 
 

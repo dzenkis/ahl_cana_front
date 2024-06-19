@@ -91,7 +91,7 @@
 
 								<li class="sidebar-item">
 									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md  w-full flex items-center hover:bg-table-2"
-										href="./supiska.html">
+										href="./supiska_timu.html">
 										<img src="../assets/images/supiska.png" alt="" class="w-4 brightness-0">
 										<span class="font-bold">Súpiska tímu</span>
 									</a>
@@ -99,7 +99,7 @@
 
 								<li class="sidebar-item">
 									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./zapasy.html">
+										href="./zapasy_timu.html">
 										<img src="../assets/images/timy.png" alt="" class="w-4">
 										<span class="font-bold text-table-1">Zápasy tímu</span>
 									</a>
@@ -119,20 +119,18 @@
 
 					<div class="container full-container py-5 flex flex-col gap-6">
 
-						<ul class="icon-nav flex items-center gap-4 pb-6">
-							<li class="relative xl:hidden">
-								<a class="text-xl  icon-hover cursor-pointer text-heading" id="headerCollapse"
-									data-hs-overlay="#application-sidebar-brand"
-									aria-controls="application-sidebar-brand" aria-label="Toggle navigation"
-									href="javascript:void(0)">
-									<i class="ti ti-menu-2 relative z-1"></i>
-								</a>
-							</li>
-						</ul>
+						<div class="card-body relative">
+							<div class="flex justify-between mb-6 items-center gap-8 pt-4">
 
-						<div class="card-body">
-							<div class="flex justify-between mb-6 flex-col md:flex-row items-center gap-8">
-								<h4 class="text-2xl transition-all font-bold">Súpiska tímu - Hk Trstené pri Hornáde</h4>
+								<div class="text-lg md:text-2xl transition-all font-bold flex justify-between flex-col lg:flex-row items-center gap-4 lg:gap-0">
+									<a href="./zapasy_timu.html" class="text-table-1 px-4 flex absolute left-0 top-0 lg:static">&lang; <span class="px-2">Späť</span></a> 
+								
+									<h4 class="text-xl lg:text-2xl transition-all font-bold">Súpiska na zápas:<br class="block md:hidden"> 17. 1. 2024 - 19:00 <span class="px-2">vs</span> HC Cassovia Kings</h4>
+								</div>
+
+								<div class="flex flex-col gap-4 md:flex-row px-2 flex-wrap justify-center">
+									<a href="#" class="rounded-md text-sm py-3 px-4 mr-1 text-center font-bold bg-brown-100 hover:bg-brown-200">PRIDAŤ LIGU / TURNAJ</a>
+								</div> 
                             </div>
 							<div class="relative overflow-x-auto">
 								<!-- table -->
@@ -145,8 +143,9 @@
 											<th scope="col" class="p-4 text-center">Meno</th>
 											<th scope="col" class="p-4 text-center">Pozícia</th>
 											<th scope="col" class="p-4 text-center">Výnimka</th>
-											<th scope="col" class="p-4 text-center">Trest</th>
-                                            <th scope="col" class="p-4 text-center"></th>
+											<th scope="col" class="p-4 text-center"></th>
+											<th scope="col" class="p-4 text-center"></th>
+                                            <th scope="col" class="p-4 text-center">Status</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -159,10 +158,11 @@
 											<td class="p-4 py-1 font-semibold text-left w-0">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
 											<td class="p-4 py-1 font-semibold"></td>
+											<td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
+											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 										<tr class="text-center">
@@ -173,17 +173,12 @@
 											<td class="p-4 font-semibold">#63</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
 											<td class="p-4 py-1 font-semibold text-red-700">Výnimka</td>
-                                            <td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold"></td>
 										</tr>
 
 										<tr class="text-center bg-table-2">
@@ -194,17 +189,12 @@
 											<td class="p-4 py-1 font-semibold">#7</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík <span class="pl-1">( A )</span></td>
 											<td class="p-4 py-1 font-semibold">Brankár</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-red-700">Zrušiť</a>
-                                            </td>
 											<td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold text-red-700">Do 12.4.2024</td>
                                             <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold"></td>
 										</tr>
 
 										<tr class="text-center">
@@ -215,17 +205,12 @@
 											<td class="p-4 py-1 font-semibold">#63</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
 											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 										<tr class="text-center bg-table-2">
@@ -236,17 +221,12 @@
 											<td class="p-4 py-1 font-semibold">#13</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold text-red-700">Výnimka</td>
-                                            <td class="p-4 py-1 font-semibold"></td>
+											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold"></td>
 										</tr>
 
 										<tr class="text-center">
@@ -257,17 +237,12 @@
 											<td class="p-4 py-1 font-semibold">#63</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík <span class="pl-1">( C )</span></td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-red-700">Zrušiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
 											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 										<tr class="text-center bg-table-2">
@@ -278,17 +253,12 @@
 											<td class="p-4 py-1 font-semibold">#7</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík <span class="pl-1">( A )</span></td>
 											<td class="p-4 py-1 font-semibold">Brankár</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-red-700">Zrušiť</a>
-                                            </td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
 											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 										<tr class="text-center">
@@ -299,17 +269,12 @@
 											<td class="p-4 py-1 font-semibold">#63</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
 											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 										<tr class="text-center bg-table-2">
@@ -320,17 +285,12 @@
 											<td class="p-4 py-1 font-semibold">#13</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold"></td>
 										</tr>
 
 										<tr class="text-center">
@@ -341,17 +301,12 @@
 											<td class="p-4 py-1 font-semibold">#63</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
+											<td class="p-4 py-1 font-semibold text-red-700">Výnimka</td>
+                                            <td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
 											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 										<tr class="text-center bg-table-2">
@@ -362,17 +317,12 @@
 											<td class="p-4 py-1 font-semibold">#7</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-table-1">Upraviť číslo</a>
+											</td>
 											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 										<tr class="text-center">
@@ -383,17 +333,12 @@
 											<td class="p-4 py-1 font-semibold">#63</td>
 											<td class="p-4 py-1 font-semibold text-left">Pišta Marienčík</td>
 											<td class="p-4 py-1 font-semibold">Hráč</td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
-											<td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Označiť</a>
-                                            </td>
+											<td class="p-4 py-1 font-semibold"></td>
+                                            <td class="p-4 py-1 font-semibold">
+												<a href="#" class="underline text-gray-500">Upraviť číslo</a>
+											</td>
 											<td class="p-4 py-1 font-semibold"></td>
                                             <td class="p-4 py-1 font-semibold"></td>
-                                            <td class="p-4 py-1 font-semibold">
-                                                <a href="#" class="underline text-table-1">Upraviť číslo dresu</a>
-                                            </td>
 										</tr>
 
 									</tbody>

@@ -1959,6 +1959,10 @@ select {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:h-12 {
     height: 3rem;
   }
@@ -1977,6 +1981,10 @@ select {
 
   .md\:items-start {
     align-items: flex-start;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-2xl {

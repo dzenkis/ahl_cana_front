@@ -858,6 +858,10 @@ select {
   inset: 0px;
 }
 
+.-right-5 {
+  right: -1.25rem;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -1039,6 +1043,10 @@ select {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-4 {
@@ -1639,6 +1647,10 @@ select {
   text-align: right;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .align-middle {
   vertical-align: middle;
 }
@@ -1710,6 +1722,11 @@ select {
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-cyan-200 {
+  --tw-text-opacity: 1;
+  color: rgb(86 190 210 / var(--tw-text-opacity));
 }
 
 .text-cyan-500 {

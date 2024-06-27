@@ -61,6 +61,8 @@ module.exports = {
           1:"#6394a4",
         },
         transparent: "transparent",
+        'custom-red': '#D64045', 
+        'custom-blue': '#5D9CEC',
       },
 
       fontFamily: {
@@ -90,6 +92,7 @@ module.exports = {
         sm:"500px",
         lg:"968px",
         xl:"1200px",
+        '3xl': '1743px',
   
       },
       backgroundImage: {
@@ -99,8 +102,17 @@ module.exports = {
         '4.5': '4.5rem',
       },
       height: {
-        '8.5': '8.5rem',
+        '7.5': '7.5rem',
       },
+      width: {
+        '95%': '95%',
+      },
+      
+      gradientColorStopPositions: {
+        0: '0%',
+        50: '50%',
+        100: '100%',
+      }
     },
   },
   variants: {},
@@ -110,6 +122,7 @@ module.exports = {
     }),
     require("@tailwindcss/typography"),
     require("preline/plugin"),
+
   ],
 }
 

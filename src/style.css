@@ -46,20 +46,11 @@
 
     #burger span {
 
-		@apply w-8 h-0.5 bg-black m-1.5
+		@apply w-8 h-0.5 bg-white m-1.5
 	}
 
     #burger span:first-child {
         margin-bottom: 1rem;
-    }
-    
-    #burger.open span:first-child {
-        transform: rotate(45deg);
-        margin-bottom: 0rem;
-    }
-    
-    #burger.open span:last-child {
-        transform: rotate(-45deg);
     }
     
     #burger span {
@@ -72,20 +63,19 @@
 	}
 
 	#menu-items {
-        margin-top: 10.5rem;
 		height: 100vh;
         width: 20rem;
 		right: 0;
 		top: 3.5rem;
-        position: fixed;
+        position: absolute;
 		padding-top: 10rem;
 		transform: translate(0%);
 		transition: transform .75s ease-in-out;
-		@apply text-xs text-white text-left flex isolate flex-col space-y-4 shadow-2xl xl:flex-row xl:space-y-0 xl:px-4 xl:pt-0 xl:text-center xl:shadow-none xl:transform-none xl:top-0 xl:space-x-8 xl:h-auto xl:hidden xl:w-auto xl:relative z-50 bg-cyan-200;
+		@apply text-xs text-white text-left flex isolate flex-col space-y-4 xl:flex-row xl:space-y-0 xl:px-4 xl:pt-0 xl:text-center xl:shadow-none xl:transform-none xl:top-0 xl:space-x-8 xl:h-auto xl:hidden xl:w-auto xl:relative z-100 bg-cyan-200;
 	}
 
 	.mobile-nav {
-		transform: translateX(110%) !important;
+		transform: translateY(-130%) !important;
 	}
 
     .unset{
@@ -95,4 +85,11 @@
 
 }
 
+#burger.open span:first-child {
+    transform: rotate(45deg);
+    margin-bottom: 0rem;
+}
 
+#burger.open span:last-child {
+    transform: rotate(-45deg);
+}

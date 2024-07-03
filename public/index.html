@@ -7,215 +7,1184 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- Favicon icon-->
 	<link rel="shortcut icon" type="image/png" href="./assets/images/logo.png" />
-	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
-		rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
 	<!-- Core Css -->
+    <link rel="stylesheet" href="./assets/css/slick.css">
 	<link rel="stylesheet" href="./assets/css/theme.css" />
+    <link rel="stylesheet" href="./assets/css/slick-theme.css">
 	<title>AHL ČAŇA</title>
 </head>
 
 <body>
 
-	<!--  Header Start -->
-	<header class="w-full text-sm py-5 xl:px-9 px-10 border-b-2 shadow-md bg-white">
+    <header class="unset">
+
+        <div class="relative bg-table-1 flex justify-center items-center z-200">
+
+            <button class="prev w-16 h-7.5 bg-cyan-200 z-50 hidden lg:block">
+                <img src="./assets/images/arrow_l.png" alt="" class="px-1.5 w-10">
+            </button>
+
+            <div class="flex justify-evenly gap-8 flex-wrap match w-95%">
+               
+                <div class="bg-white mx-1">
+                    <div class="bg-table-1 text-white text-center py-1">
+                        <h2 class="text-xs">12. kolo</h2>
+                    </div>
+                    <div class="flex justify-evenly md:justify-start">
+                        <div class="px-6 flex flex-col justify-between items-center gap-2 py-2">
+                            <div class="flex items-center">
+                                <img src="./assets/images/trstene.png" alt="Team 1 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">TNH</h3>
+                                    <p class="text-xl font-bold">6</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./assets/images/haniska.png" alt="Team 2 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">HFL</h3>
+                                    <p class="text-xl font-bold">4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 flex flex-col justify-evenly gap-2">
+                            <p class="text-gray-600 text-sm">28.10.24</p>
+                            <p class="text-gray-600 text-sm">16:15</p>
+                            <a href="#" class="font-bold text-sm">Zápis ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mx-1">
+                    <div class="bg-table-1 text-white text-center py-1">
+                        <h2 class="text-xs">12. kolo</h2>
+                    </div>
+                    <div class="flex justify-evenly md:justify-start">
+                        <div class="px-6 flex flex-col justify-between items-center gap-2 py-2">
+                            <div class="flex items-center">
+                                <img src="./assets/images/trstene.png" alt="Team 1 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">TNH</h3>
+                                    <p class="text-xl font-bold">6</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./assets/images/haniska.png" alt="Team 2 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">HFL</h3>
+                                    <p class="text-xl font-bold">4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 flex flex-col justify-evenly gap-2">
+                            <p class="text-gray-600 text-sm">28.10.24</p>
+                            <p class="text-gray-600 text-sm">16:15</p>
+                            <a href="#" class="font-bold text-sm">Zápis ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mx-1">
+                    <div class="bg-table-1 text-white text-center py-1">
+                        <h2 class="text-xs">12. kolo</h2>
+                    </div>
+                    <div class="flex justify-evenly md:justify-start">
+                        <div class="px-6 flex flex-col justify-between items-center gap-2 py-2">
+                            <div class="flex items-center">
+                                <img src="./assets/images/trstene.png" alt="Team 1 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">TNH</h3>
+                                    <p class="text-xl font-bold">6</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./assets/images/haniska.png" alt="Team 2 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">HFL</h3>
+                                    <p class="text-xl font-bold">4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 flex flex-col justify-evenly gap-2">
+                            <p class="text-gray-600 text-sm">28.10.24</p>
+                            <p class="text-gray-600 text-sm">16:15</p>
+                            <a href="#" class="font-bold text-sm">Zápis ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mx-1">
+                    <div class="bg-table-1 text-white text-center py-1">
+                        <h2 class="text-xs">12. kolo</h2>
+                    </div>
+                    <div class="flex justify-evenly md:justify-start">
+                        <div class="px-6 flex flex-col justify-between items-center gap-2 py-2">
+                            <div class="flex items-center">
+                                <img src="./assets/images/trstene.png" alt="Team 1 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">TNH</h3>
+                                    <p class="text-xl font-bold">6</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./assets/images/haniska.png" alt="Team 2 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">HFL</h3>
+                                    <p class="text-xl font-bold">4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 flex flex-col justify-evenly gap-2">
+                            <p class="text-gray-600 text-sm">28.10.24</p>
+                            <p class="text-gray-600 text-sm">16:15</p>
+                            <a href="#" class="font-bold text-sm">Zápis ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mx-1">
+                    <div class="bg-table-1 text-white text-center py-1">
+                        <h2 class="text-xs">12. kolo</h2>
+                    </div>
+                    <div class="flex justify-evenly md:justify-start">
+                        <div class="px-6 flex flex-col justify-between items-center gap-2 py-2">
+                            <div class="flex items-center">
+                                <img src="./assets/images/trstene.png" alt="Team 1 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">TNH</h3>
+                                    <p class="text-xl font-bold">6</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./assets/images/haniska.png" alt="Team 2 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">HFL</h3>
+                                    <p class="text-xl font-bold">4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 flex flex-col justify-evenly gap-2">
+                            <p class="text-gray-600 text-sm">28.10.24</p>
+                            <p class="text-gray-600 text-sm">16:15</p>
+                            <a href="#" class="font-bold text-sm">Zápis ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mx-1">
+                    <div class="bg-table-1 text-white text-center py-1">
+                        <h2 class="text-xs">12. kolo</h2>
+                    </div>
+                    <div class="flex justify-evenly md:justify-start">
+                        <div class="px-6 flex flex-col justify-between items-center gap-2 py-2">
+                            <div class="flex items-center">
+                                <img src="./assets/images/trstene.png" alt="Team 1 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">TNH</h3>
+                                    <p class="text-xl font-bold">6</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./assets/images/haniska.png" alt="Team 2 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">HFL</h3>
+                                    <p class="text-xl font-bold">4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 flex flex-col justify-evenly gap-2">
+                            <p class="text-gray-600 text-sm">28.10.24</p>
+                            <p class="text-gray-600 text-sm">16:15</p>
+                            <a href="#" class="font-bold text-sm">Zápis ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mx-1">
+                    <div class="bg-table-1 text-white text-center py-1">
+                        <h2 class="text-xs">12. kolo</h2>
+                    </div>
+                    <div class="flex justify-evenly md:justify-start">
+                        <div class="px-6 flex flex-col justify-between items-center gap-2 py-2">
+                            <div class="flex items-center">
+                                <img src="./assets/images/trstene.png" alt="Team 1 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">TNH</h3>
+                                    <p class="text-xl font-bold">6</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./assets/images/haniska.png" alt="Team 2 Logo" class="w-12 h-12">
+                                <div class="ml-4 flex items-center gap-4">
+                                    <h3 class="text-lg font-bold">HFL</h3>
+                                    <p class="text-xl font-bold">4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 flex flex-col justify-evenly gap-2">
+                            <p class="text-gray-600 text-sm">28.10.24</p>
+                            <p class="text-gray-600 text-sm">16:15</p>
+                            <a href="#" class="font-bold text-sm">Zápis ></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="next w-16 h-7.5 bg-cyan-200 z-50 hidden lg:block">
+                <img src="./assets/images/arrow_r.png" alt="" class="px-1.5 w-10">
+            </button>
+
+        </div>
+
+        <nav class="bg-cyan-200 p-2 px-12 sticky top-0 z-100">
+            <div class="flex justify-center items-center">
+                <div class="hidden lg:flex items-center w-full justify-between text-center z-200">
+                    <a href="#" class="font-bold text-sm pr-2">
+                        <img src="./assets/images/home.png" alt="Home" class="inline-block h-6 w-6 brightness-200 hover:brightness-90">
+                    </a>
+                    <a href="./tabulka.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">TABUĽKA</a>
+                    <a href="./program.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">VÝSLEDKY A PROGRAM</a>
+                    <a href="#" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">ŠTATISTIKY</a>
+                    <a href="./pravidla.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">PRAVIDLÁ</a>
+                    <a href="./rozhodnutia.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">ROZHODNUTIA</a>
+                    <a href="./historia.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">O NÁS</a>
+                    <a href="#" class="text-red-700 font-bold text-sm hover:text-red-800 py-2 px-3">LIVE •</a>
+                    <a href="#" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">SÚŤAŽE</a>
+                    <a href="#" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">FAN SHOP</a>
+                    <a href="./components/authentication-login.html" class="bg-brown-100 text-gray-900 font-semibold py-2 px-4 rounded hover:bg-brown-200">PRIHLÁSENIE</a>
+                </div>
 
 
-		<!-- ========== HEADER ========== -->
 
-		<nav class=" w-full flex items-center justify-between" aria-label="Global">
+                <div class="flex items-center w-full justify-between text-center lg:hidden z-200">
+                    <a href="#" class="font-bold text-sm pr-2">
+                        <img src="./assets/images/home.png" alt="Home" class="inline-block h-6 w-6 brightness-200 hover:brightness-90">
+                    </a>
+                    <a href="./components/authentication-login.html" class="bg-brown-100 text-gray-900 font-semibold py-2 px-4 rounded hover:bg-brown-200">PRIHLÁSENIE</a>
+                </div>
 
-			<a href="#" class="flex items-center">
-
-				<img src="./assets/images/logo.png" alt="" class="transition-all w-12 md:w-16">
-
-				<h1 class="md:text-xl text-lg font-extrabold px-6 transition-all">Hokejová liga Čaňa</h1>
-
-			</a>
-
-			<div class="flex items-center gap-4">
-				<h2 class="text-right hidden md:flex flex-col font-bold md:text-xl text-lg transition-all">
-					<span class="text-xs font-light">Uživateľ</span>
-					Hk Trstené Pri Hornáde
-				</h2>
-				<div class="hs-dropdown relative inline-flex [--placement:bottom-right] sm:[--trigger:hover]">
-					<a class="relative hs-dropdown-toggle cursor-pointer align-middle rounded-full">
-						<img class="object-cover w-12 h-12 transition-all md:w-16 md:h-16 rounded-full" src="./assets/images/trstene.png" alt=""
-							aria-hidden="true">
-					</a>
-					<div class="card hs-dropdown-menu transition-[opacity,margin] border border-gray-400 rounded-[7px] duration hs-dropdown-open:opacity-100 opacity-0 mt-2 min-w-max  w-[200px] hidden z-[12]"
-						aria-labelledby="hs-dropdown-custom-icon-trigger">
-						<div class="card-body p-0 py-2">
-							<a href="javscript:void(0)" class="flex gap-2 items-center px-4 py-[6px] hover:bg-table-2">
-								<i class="ti ti-user text-gray-500 text-xl "></i>
-								<p class="text-sm text-gray-500">My Profile</p>
-							</a>
-							<a href="javscript:void(0)" class="flex gap-2 items-center px-4 py-[6px] hover:bg-table-2">
-								<i class="ti ti-mail text-gray-500 text-xl"></i>
-								<p class="text-sm text-gray-500">My Account</p>
-							</a>
-							<a href="javscript:void(0)" class="flex gap-2 items-center px-4 py-[6px] hover:bg-table-2">
-								<i class="ti ti-list-check text-gray-500 text-xl "></i>
-								<p class="text-sm text-gray-500">My Task</p>
-							</a>
-							<div class="px-4 mt-[7px] grid">
-								<a href="./pages/home.html"
-									class="btn-outline-primary w-full hover:bg-blue-300 hover:text-white">Logout</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
+                <div id="burger" class="flex flex-col cursor-pointer z-200 xl:hidden pl-2 pt-2">
+                    <span class="transition-all"></span>
+                    <span class="transition-all"></span>
+                </div>
+                <ul id="menu-items" class="mobile-nav">
+                    <li class="nav-items"><a href="./tabulka.html" class="block lg:hidden">TABUĽKA</a></li>
+                    <li class="nav-items"><a href="./program.html" class="block lg:hidden">VÝSLEDKY A PROGRAM</a></li>
+                    <li class="nav-items"><a href="#" class="block lg:hidden">ŠTATISTIKY</a></li>
+                    <li class="nav-items"><a href="./pravidla.html">PRAVIDLÁ</a></li>
+                    <li class="nav-items"><a href="./rozhodnutia.html">ROZHODNUTIA</a></li>
+                    <li class="nav-items"><a href="./historia.html">O NÁS</a></li>
+                    <li class="nav-items"><a href="#" class="text-red-700 hover:text-red-800 block lg:hidden">LIVE •</a></li>
+                    <li class="nav-items"><a href="#" class="block lg:hidden">SÚŤAŽE</a></li>
+                    <li class="nav-items"><a href="#" class="block lg:hidden">FAN SHOP</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
-			</div>
-		</nav>
+    <main>
 
-	</header>
-	<!--  Header End -->
+        <section class="px-2">
 
-	<main>
-		<!--start the project-->
-		<div id="main-wrapper" class=" flex">
-			<aside id="application-sidebar-brand"
-				class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 fixed top-0 with-vertical h-screen z-100 flex-shrink-0 w-[270px] bg-white left-sidebar   transition-all duration-300 xl:relative">
-				<!-- ---------------------------------- -->
-				<!-- Start Vertical Layout Sidebar -->
-				<!-- ---------------------------------- -->
-				<div class="scroll-sidebar" data-simplebar="">
-					<div class="px-6 mt-8">
-						<nav class=" w-full flex flex-col sidebar-nav">
-							<ul id="sidebarnav" class="text-gray-600 text-sm">
-								<li class="text-xs font-bold pb-4">
-									<span class="font-bold text-base">Správca súťaže</span>
-								</li>
+            <div class="flex justify-between items-center mx-auto sponsors py-2 margin0">
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md  w-full flex items-center hover:bg-table-2"
-										href="./pages/sutaze.html">
-										<img src="./assets/images/sutaze.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Súťaže</span>
-									</a>
-								</li>
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor1.png" alt=""></a>
+                </div>
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./pages/timy.html">
-										<img src="./assets/images/timy.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Tímy</span>
-									</a>
-								</li>
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor2.png" alt=""></a>
+                </div>
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor3.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor4.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor5.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor6.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class="flex justify-center"><img src="./assets/images/sponsor7.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor2.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor1.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor3.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor5.png" alt=""></a>
+                </div>
+                
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor1.png" alt=""></a>
+                </div>
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./pages/hraci.html">
-										<img src="./assets/images/hraci.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Hráči</span>
-									</a>
-								</li>
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor2.png" alt=""></a>
+                </div>
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor3.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor4.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor5.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor6.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class="flex justify-center"><img src="./assets/images/sponsor7.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor2.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor1.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor3.png" alt=""></a>
+                </div>
+                
+            
+                <div class="px-8 py-2">
+                    <a href="#" class=""><img src="./assets/images/sponsor5.png" alt=""></a>
+                </div>
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./pages/rozhodcovia.html">
-										<img src="./assets/images/rozhodcovia.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Rozhodcovia</span>
-									</a>
-								</li>
+            </div>
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./pages/tresty.html">
-										<img src="./assets/images/tresty.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Tresty</span>
-									</a>
-								</li>
+        </section>
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./pages/pravidla.html">
-										<img src="./assets/images/pravidla.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Pravidlá</span>
-									</a>
-								</li>
+        <section class="bg-table-2 py-8 px-12">
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./pages/dk.html">
-										<img src="./assets/images/rozhodnutia.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Rozhodnutia DK</span>
-									</a>
-								</li>
+            <div class="flex justify-evenly items-center gap-4 flex-col lg:flex-row">
+                
+                <div class="flex gap-8 justify-evenly items-center xl:w-2/5">
+                    <div>
+                        <img src="./assets/images/klimavex.png" alt="" class="w-24">
+                    </div>
 
-								<li class="sidebar-item">
-									<a class="sidebar-link gap-3 py-3 px-3 font-semibold  rounded-md w-full flex items-center hover:bg-table-2"
-										href="./pages/pristupy.html">
-										<img src="./assets/images/pristupy.png" alt="" class="w-4 brightness-0">
-										<span class="font-bold">Prístupy</span>
-									</a>
-								</li>
+                    <div>
+                        <img src="./assets/images/cassovia.png" alt="" class="w-24">
+                    </div>
 
-							</ul>
-						</nav>
-					</div>
-				</div>
+                    <div>
+                        <img src="./assets/images/trstene.png" alt="" class="w-24">
+                    </div>
+                </div>
 
-				<!-- </aside> -->
-			</aside>
-			<div class=" w-full page-wrapper overflow-hidden border-l-[1px] border-gray-400">
+                <div class="pt-8 px-4 pb-8 lg:pb-0">
+                    <img src="./assets/images/logo.png" alt="" class="w-48">
+                </div>
 
-				<!-- Main Content -->
-				<section class="h-full overflow-y-auto  max-w-full">
+                <div class="flex gap-8 justify-evenly items-center xl:w-2/5">
+                    <div>
+                        <img src="./assets/images/slanec.png" alt="" class="w-24">
+                    </div>
 
-					<div class="container full-container py-5 flex flex-col gap-6">
+                    <div>
+                        <img src="./assets/images/cana.png" alt="" class="w-24">
+                    </div>
 
-						<ul class="icon-nav flex items-center gap-4 pb-6">
-							<li class="relative xl:hidden">
-								<a class="text-xl  icon-hover cursor-pointer text-heading" id="headerCollapse"
-									data-hs-overlay="#application-sidebar-brand"
-									aria-controls="application-sidebar-brand" aria-label="Toggle navigation"
-									href="javascript:void(0)">
-									<i class="ti ti-menu-2 relative z-1"></i>
-								</a>
-							</li>
-						</ul>
+                    <div>
+                        <img src="./assets/images/haniska.png" alt="" class="w-24"> 
+                    </div>
+                </div>
 
-						<div class="flex flex-col md:flex-row items-center justify-between container">
-							<h2 class="text-2xl font-extrabold transition-all">Rôzny správcovia</h2>
-						</div>
+            </div>
 
-						<div class="flex flex-col md:flex-row items-center justify-start container gap-8 py-4">
-							<a href="./pages/sutaze.html" class="rounded-md text-sm py-3 px-8 text-center font-bold text-white bg-blue-300 hover:bg-blue-400">SPRÁVCA SÚŤAŽE</a>
+        </section>
 
-							<a href="./pages/spravca_zapasu.html" class="rounded-md text-sm py-3 px-8 text-center font-bold text-black bg-brown-100 hover:bg-brown-200">SPRÁVCA ZÁPASU</a>
+        <section>
 
-							<a href="./pages/supiska_timu.html" class="rounded-md text-sm py-3 px-10 text-center font-bold text-white bg-table-1 hover:bg-cyan-800">SPRÁVCA TÍMU</a>
-						</div>
+            <div class="px-12">
 
-					</div>
+                <h2 class="text-2xl font-bold py-4 text-center md:text-left">Naši sponzori</h2>
+
+                <div class="flex justify-between items-center mx-auto sponsors2 py-2">
+
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor1.png" alt=""></a>
+                    </div>
+    
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor2.png" alt=""></a>
+                    </div>
+                
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor3.png" alt=""></a>
+                    </div>
+                    
+                
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor4.png" alt=""></a>
+                    </div>
+                    
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor5.png" alt=""></a>
+                    </div>
+
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor1.png" alt=""></a>
+                    </div>
+    
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor2.png" alt=""></a>
+                    </div>
+                
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor3.png" alt=""></a>
+                    </div>
+                    
+                
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor4.png" alt=""></a>
+                    </div>
+                    
+                
+                    <div class="w-40 px-8 py-2">
+                        <a href="#" class=""><img src="./assets/images/sponsor5.png" alt=""></a>
+                    </div>
+                    
+    
+                </div>
+                
+            </div>
+
+            <div class="px-12 py-4">
+                <div class="flex justify-between flex-col lg:flex-row">
+                    <div class="flex mb-6 flex-col lg:flex-row items-center gap-6">
+                        <h4 class="text-2xl transition-all font-bold">Aktuálna tabuľka</h4>
+
+                        <button id="zkladna-cast" class="rounded-md text-sm py-2 px-10 text-center text-white font-bold bg-cyan-200 hover:bg-cyan-600">ZÁKLADNÁ ČASŤ</button>
+                        
+                        <button id="playoff" class="rounded-md text-sm py-2 px-2 text-center text-table-1 font-bold">PLAY OFF</button>
+                    </div>
+                    <div class="flex justify-center">
+                        <h4 class="font-bold text-xl pb-2">AHL 2024 / 2025</h4>
+                    </div>
+                    
+                </div>
+
+                <div class="relative overflow-x-auto">
+                    <!-- table -->
+                    <table id="zkladna-cast-table" class="text-left w-full whitespace-nowrap text-sm active">
+                        <thead class="bg-table-1 text-white">
+                            <tr class="font-bold">
+                                <th scope="col" class="p-4 text-center w-4"></th>
+                                <th scope="col" class="p-4 text-center"></th>
+                                <th scope="col" class="p-4 text-center w-4">TÍM</th>
+                                <th scope="col" class="p-4 text-center">ZÁPASY</th>
+                                <th scope="col" class="p-4 text-center">V</th>
+                                <th scope="col" class="p-4 text-center">VP</th>
+                                <th scope="col" class="p-4 text-center">PP</th>
+                                <th scope="col" class="p-4 text-center">P</th>
+                                <th scope="col" class="p-4 text-center">GV</th>
+                                <th scope="col" class="p-4 text-center">GO</th>
+                                <th scope="col" class="p-4 text-center">SKÓRE</th>
+                                <th scope="col" class="p-4 text-center bg-brown-100 text-black">BODY</th>
+                                <th scope="col" class="p-4 text-center">FORMA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-center bg-table-2 hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">1.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center lg:w-12 mx-auto">
+                                    <img src="./assets/images/trstene.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HK TRSTENÉ PRI HORNÁDE</td>
+                                <td class="p-4 py-1 font-semibold">
+                                    11
+                                </td>
+                                <td class="p-4 py-1 font-semibold">
+                                    <span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">11</span>
+                                </td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">
+                                    <span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">31</span>
+                                </td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">
+                                    <span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">+121</span>
+                                </td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                                
+                            </tr>
+
+                            <tr class="text-center hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">2.</td>
+                                <td class="p-4 py-1 px-0 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/slanec.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 font-semibold text-left">HC KLIVENT SLANEC</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center bg-table-2 hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">3.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/cassovia.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HC CASSOVIA KINGS</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">
+                                    <span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">3</span>
+                                </td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">4.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/klimavex.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HC KLIMAVEX KOŠICE</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center bg-table-2 hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">5.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/cana.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">KH LAKER ČAŇA</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">
+                                    <span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">6</span>
+                                </td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">6.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/haniska.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HC HANISKÁ FLYERS</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center bg-table-2 hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">7.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/trstene.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HK TRSTENÉ PRI HORNÁDE</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">8.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/slanec.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HC KLIVENT SLANEC</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center bg-table-2 hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">9.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/cassovia.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HC CASSOVIA KINGS</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">10.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/klimavex.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HC KLIMAVEX KOŠICE</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center bg-table-2 hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">11.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/cana.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">KH LAKER ČAŇA</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">
+                                    <span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">7</span>
+                                </td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">12.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center w-12 mx-auto">
+                                    <img src="./assets/images/haniska.png" alt="" class="object-cover w-10 h-10 transition-all lg:w-12 lg:h-12 lg:p-1">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">HC HANISKÁ FLYERS</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold">
+                                    <span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">91</span>
+                                </td>
+                                <td class="p-4 py-1 font-semibold">+121</td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
 
 
-				</section>
-				<!-- Main Content End -->
+                    <table id="playoff-table" class="text-left w-full whitespace-nowrap text-sm hidden">
+                        <thead class="bg-table-1 text-white">
+                            <tr class="font-bold">
+                                <th scope="col" class="p-4 text-center w-4"></th>
+                                <th scope="col" class="p-4 text-center"></th>
+                                <th scope="col" class="p-4 text-center w-4">TÍM</th>
+                                <th scope="col" class="p-4 text-center">ZÁPASY</th>
+                                <th scope="col" class="p-4 text-center">V</th>
+                                <th scope="col" class="p-4 text-center">VP</th>
+                                <th scope="col" class="p-4 text-center">PP</th>
+                                <th scope="col" class="p-4 text-center">P</th>
+                                <th scope="col" class="p-4 text-center">GV</th>
+                                <th scope="col" class="p-4 text-center">GO</th>
+                                <th scope="col" class="p-4 text-center">SKÓRE</th>
+                                <th scope="col" class="p-4 text-center bg-brown-100 text-black">BODY</th>
+                                <th scope="col" class="p-4 text-center">FORMA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows for PLAY OFF -->
+                            <tr class="text-center bg-table-2 hover:bg-cyan-200 hover:text-white">
+                                <td class="p-4 py-1 font-semibold">1.</td>
+                                <td class="p-4 px-0 py-1 font-bold flex justify-center">
+                                    <img src="./assets/images/profile/user-1.jpg" alt="" class="object-cover w-10 h-10 transition-all md:w-12 md:h-12">
+                                </td>
+                                <td class="p-4 py-1 font-semibold text-left">PLAYOFF TEAM 1</td>
+                                <td class="p-4 py-1 font-semibold">11</td>
+                                <td class="p-4 py-1 font-semibold"><span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">11</span></td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">0</td>
+                                <td class="p-4 py-1 font-semibold">73</td>
+                                <td class="p-4 py-1 font-semibold"><span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">31</span></td>
+                                <td class="p-4 py-1 font-semibold">31</td>
+                                <td class="p-4 py-1 font-semibold"><span class="flex items-center justify-center bg-brown-100 text-white rounded-full h-8 w-8 mx-auto">+121</span></td>
+                                <td class="p-4 py-1 font-bold bg-brown-100 highlight">33</td>
+                                <td class="p-0 text-right font-semibold">
+                                    <div class="flex justify-center gap-4 px-4 items-center">
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">VP</div>
+                                        <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">P</div>
+                                        <div class="flex items-center justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">V</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Additional rows for PLAY OFF -->
+                        </tbody>
+                    </table>
+                </div>
 
-			</div>
+            </div>
 
-		</div>
-		<!--end of project-->
-	</main>
+            <div class="px-12 py-2">
 
-	<footer class="mt-96 xl:mt-0">
+                <h2 class="text-2xl font-bold py-4 text-center lg:text-left">Štatistiky TOP 3</h2>
+
+                <div class="mx-auto bg-white">
+                    <div class="flex flex-col md:flex-row flex-wrap justify-evenly 2xl:justify-between gap-12 text-center">
+                        <!-- Column 1: Kanadske Bodovanie -->
+                        <div class="relative">
+                            <h2 class="font-bold text-xl text-center md:text-left md:justify-start flex justify-center items-center gap-2">KANADSKÉ BODOVANIE <span class="pb-1 font-medium">&rang;</span></h2>
+                            <p class="text-center md:text-left text-xs md:absolute">Počet bodov</p>
+                            <div class="flex flex-col gap-8 py-6">
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy1.png" alt="Šaňo Hulákač">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-brown-100 text-white rounded-full h-8 w-8">24</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Šaňo Hulákač (ĽK)</p>
+                                        <p class="text-gray-600 text-sm">HC CASSOVIA Kings</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy2.png" alt="Pištík Ostrouhlý">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-gray-500 text-white rounded-full h-8 w-8">21</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Pištík Ostrouhlý (C)</p>
+                                        <p class="text-gray-600 text-sm">HK Trstené pri Hornáde</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy3.png" alt="Serváč Pankráč">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-brown-200 text-white rounded-full h-8 w-8">18</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Servác Pankrác (O)</p>
+                                        <p class="text-gray-600 text-sm">HC Klivent Slanec</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Column 2: Najlepší Strelec -->
+                        <div class="">
+                            <h2 class="font-bold text-xl text-center md:text-left md:justify-start flex justify-center items-center gap-2">NAJLEPŠÍ STRELEC <span class="pb-1 font-medium">&rang;</span></h2>
+                            <div class="flex flex-col gap-8 py-6">
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy1.png" alt="Šaňo Hulákač">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-brown-100 text-white rounded-full h-8 w-8">24</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Šaňo Hulákač (ĽK)</p>
+                                        <p class="text-gray-600 text-sm">HC CASSOVIA Kings</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy2.png" alt="Pištík Ostrouhlý">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-gray-500 text-white rounded-full h-8 w-8">21</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Pištík Ostrouhlý (C)</p>
+                                        <p class="text-gray-600 text-sm">HK Trstené pri Hornáde</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy3.png" alt="Serváč Pankráč">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-brown-200 text-white rounded-full h-8 w-8">18</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Servác Pankrác (O)</p>
+                                        <p class="text-gray-600 text-sm">HC Klivent Slanec</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Column 3: Najlepší Nahrávač -->
+                        <div class="">
+                            <h2 class="font-bold text-xl text-center md:text-left md:justify-start flex justify-center items-center gap-2">NAJLEPŠÍ NAHRÁVAČ <span class="pb-1 font-medium">&rang;</span></h2>
+                            <div class="flex flex-col gap-8 py-6">
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy1.png" alt="Šaňo Hulákač">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-brown-100 text-white rounded-full h-8 w-8">24</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Šaňo Hulákač (ĽK)</p>
+                                        <p class="text-gray-600 text-sm">HC CASSOVIA Kings</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy2.png" alt="Pištík Ostrouhlý">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-gray-500 text-white rounded-full h-8 w-8">21</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Pištík Ostrouhlý (C)</p>
+                                        <p class="text-gray-600 text-sm">HK Trstené pri Hornáde</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy3.png" alt="Serváč Pankráč">
+                                        <span class="flex absolute items-center -bottom-3 -left-3 justify-center bg-brown-200 text-white rounded-full h-8 w-8">18</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Servác Pankrác (O)</p>
+                                        <p class="text-gray-600 text-sm">HC Klivent Slanec</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Column 4: Najlepší Brankár -->
+                        <div class="">
+                            <h2 class="font-bold text-xl text-center md:text-left md:justify-start flex justify-center items-center gap-2">NAJLEPŠÍ BRANKÁR <span class="pb-1 font-medium">&rang;</span></h2>
+                            <div class="flex flex-col gap-8 py-6">
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy1.png" alt="Šaňo Hulákač">
+                                        <span class="flex absolute items-center -bottom-4 -left-1 justify-center bg-brown-100 text-white rounded-lg h-8 w-16">0,961</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Šaňo Hulákač (ĽK)</p>
+                                        <p class="text-gray-600 text-sm">HC CASSOVIA Kings</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy2.png" alt="Pištík Ostrouhlý">
+                                        <span class="flex absolute items-center -bottom-4 -left-1 justify-center bg-gray-500 text-white rounded-lg h-8 w-16">0,938</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Pištík Ostrouhlý (C)</p>
+                                        <p class="text-gray-600 text-sm">HK Trstené pri Hornáde</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center md:justify-start gap-4">
+                                    <div class="relative">
+                                        <img class="w-14 h-14 rounded-full" src="./assets/images/guy3.png" alt="Serváč Pankráč">
+                                        <span class="flex absolute items-center -bottom-4 -left-1 justify-center bg-brown-200 text-white rounded-lg h-8 w-16">0,911</span>
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-bold text-xl">Servác Pankrác (O)</p>
+                                        <p class="text-gray-600 text-sm">HC Klivent Slanec</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center pt-8">
+                    <a href="./statistiky.html" class="rounded-md text-sm py-3 px-12 text-center font-bold bg-brown-100 hover:bg-brown-200">KOMPLETNÉ ŠTATISTIKY</a>
+                </div>
+            </div>
+
+            <div class="px-12 py-4">
+
+                <h2 class="text-2xl font-bold py-4 text-center lg:text-left">Highlighty zo zápasov</h2>
+
+                <div class="flex flex-col lg:flex-row gap-8 flex-wrap justify-center 3xl:justify-between">
+                    <!-- Video Card 1 -->
+                    <div class="flex flex-col items-center">
+                        <div class="relative max-w-96">
+                            <img class="" src="./assets/images/video.png" alt="Highlights 1">
+                            <!-- <div class="absolute bottom-0 left-0 p-2 rounded-bl-lg rounded-br-lg w-full">
+                                <span class="absolute bottom-2 right-2 bg-opacity-75 p-1 rounded text-xs">0:42</span>
+                            </div> -->
+                        </div>
+                        <div class="py-2 w-full text-center lg:text-left">
+                            <p class="text-xs xl:text-sm">16.3.2024 Highlights</p>
+                            <p class="text-xs xl:text-sm">HK Trstené pri H. vs HC Klivent Slanec</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <div class="relative max-w-96">
+                            <img class="" src="./assets/images/video.png" alt="Highlights 1">
+                            <!-- <div class="absolute bottom-0 left-0 p-2 rounded-bl-lg rounded-br-lg w-full">
+                                <span class="absolute bottom-2 right-2 bg-opacity-75 p-1 rounded text-xs">0:42</span>
+                            </div> -->
+                        </div>
+                        <div class="py-2 w-full text-center lg:text-left">
+                            <p class="text-xs xl:text-sm">16.3.2024 Highlights</p>
+                            <p class="text-xs xl:text-sm">HK Trstené pri H. vs HC Klivent Slanec</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <div class="relative max-w-96">
+                            <img class="" src="./assets/images/video.png" alt="Highlights 1">
+                            <!-- <div class="absolute bottom-0 left-0 p-2 rounded-bl-lg rounded-br-lg w-full">
+                                <span class="absolute bottom-2 right-2 bg-opacity-75 p-1 rounded text-xs">0:42</span>
+                            </div> -->
+                        </div>
+                        <div class="py-2 w-full text-center lg:text-left">
+                            <p class="text-xs xl:text-sm">16.3.2024 Highlights</p>
+                            <p class="text-xs xl:text-sm">HK Trstené pri H. vs HC Klivent Slanec</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <div class="relative max-w-96">
+                            <img class="" src="./assets/images/video.png" alt="Highlights 1">
+                            <!-- <div class="absolute bottom-0 left-0 p-2 rounded-bl-lg rounded-br-lg w-full">
+                                <span class="absolute bottom-2 right-2 bg-opacity-75 p-1 rounded text-xs">0:42</span>
+                            </div> -->
+                        </div>
+                        <div class="py-2 w-full text-center lg:text-left">
+                            <p class="text-xs xl:text-sm">16.3.2024 Highlights</p>
+                            <p class="text-xs xl:text-sm">HK Trstené pri H. vs HC Klivent Slanec</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="text-center pt-8">
+                    <a href="#" class="rounded-md text-sm py-3 px-12 text-center font-bold bg-brown-100 hover:bg-brown-200">VŠETKY HIGHLIGHTY</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="pt-8">
 							
 		<div class="bg-black text-white flex flex-col justify-center gap-8 py-8">
 
 			<ul class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center">
-				<li><a href="#" class="hover:text-slate-300">Tabuľka</a></li>
-				<li><a href="#" class="hover:text-slate-300">Výsledky a program</a></li>
+				<li><a href="./tabulka.html" class="hover:text-slate-300">Tabuľka</a></li>
+				<li><a href="./program.html" class="hover:text-slate-300">Výsledky a program</a></li>
 				<li><a href="#" class="hover:text-slate-300">Štatistiky</a></li>
 				<li><a href="#" class="hover:text-slate-300">Tímy</a></li>
-				<li><a href="#" class="hover:text-slate-300">Pravidlá</a></li>
-				<li><a href="#" class="hover:text-slate-300">O nás</a></li>
+				<li><a href="./pravidla.html" class="hover:text-slate-300">Pravidlá</a></li>
+				<li><a href="./historia.html" class="hover:text-slate-300">O nás</a></li>
 				<li><a href="#" class="hover:text-slate-300">Kontakt</a></li>
 			</ul>
 
@@ -235,16 +1204,216 @@
 		
 	</footer>
 
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/js/effects.js"></script>
+    <script type="text/javascript">
 
-	<script src="./assets/libs/jquery/dist/jquery.min.js"></script>
-	<script src="./assets/libs/simplebar/dist/simplebar.min.js"></script>
-	<script src="./assets/libs/iconify-icon/dist/iconify-icon.min.js"></script>
-	<script src="./assets/libs/@preline/dropdown/index.js"></script>
-	<script src="./assets/libs/@preline/overlay/index.js"></script>
-	<script src="./assets/js/sidebarmenu.js"></script>
+$('.match').slick({
+        arrows: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        appendDots: $('.dots'),
+        prevArrow:$('.prev'),
+        nextArrow:$('.next'),
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 5,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1500,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 968,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
+            {
+                breakpoint: 560,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    arrows: false,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
 
-	<script src="./assets/js/dashboard.js"></script>
-	<!-- <div class="hs-overlay-backdrop"></div> -->
+        ]
+    });
+
+    
+    $('.sponsors').slick({
+        arrows: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        appendDots: $('.dots'),
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 2560,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 11,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 8,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 968,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 6,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
+            {
+                breakpoint: 560,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    arrows: false,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
+
+        ]
+    });
+
+    $('.sponsors2').slick({
+        arrows: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        appendDots: $('.dots'),
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 2560,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 6,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 5,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 968,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
+            {
+                breakpoint: 560,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    arrows: false,
+                    appendDots: $('.dots-bottom'),
+                }
+            },
+
+        ]
+    });
+
+    </script>
 </body>
 
 </html>

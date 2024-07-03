@@ -5,10 +5,6 @@
 
 @layer components{
 
-    .hs-overlay-backdrop{
-    opacity: 50%
-    }
-
     .container{
         @apply max-w-7xl;
     }
@@ -17,9 +13,6 @@
     }
     .card-body {
         @apply p-6;
-    }
-    .hs-dropdown-menu{
-        @apply  shadow-md bg-white relative rounded-md;  
     }
 
     .btn{

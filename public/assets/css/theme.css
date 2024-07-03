@@ -1025,6 +1025,10 @@ tr:hover .highlight {
   left: 0px;
 }
 
+.left-1 {
+  left: 0.25rem;
+}
+
 .left-2 {
   left: 0.5rem;
 }
@@ -1313,6 +1317,10 @@ tr:hover .highlight {
   width: 95%;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[17\%\] {
   width: 17%;
 }
@@ -1521,6 +1529,10 @@ tr:hover .highlight {
   border-radius: 0.25rem;
 }
 
+.rounded-2xl {
+  border-radius: 15px;
+}
+
 .rounded-\[4px\] {
   border-radius: 4px;
 }
@@ -1543,6 +1555,16 @@ tr:hover .highlight {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-t-2xl {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.rounded-t-none {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .rounded-bl-lg {
@@ -2146,6 +2168,11 @@ tr:hover .highlight {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(255 174 31 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2379,6 +2406,10 @@ tr:hover .highlight {
     position: static;
   }
 
+  .md\:absolute {
+    position: absolute;
+  }
+
   .md\:m-0 {
     margin: 0px;
   }
@@ -2438,6 +2469,10 @@ tr:hover .highlight {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:justify-items-start {
+    justify-items: start;
   }
 
   .md\:gap-0 {
@@ -2543,10 +2578,6 @@ tr:hover .highlight {
 
   .lg\:justify-start {
     justify-content: flex-start;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
   }
 
   .lg\:justify-between {

@@ -93,6 +93,7 @@ module.exports = {
         lg:"968px",
         xl:"1200px",
         '3xl': '1743px',
+        '2xxl': '1615px',
   
       },
       backgroundImage: {
@@ -106,6 +107,8 @@ module.exports = {
       },
       width: {
         '95%': '95%',
+        "86": "22rem",
+        "15": "3.6rem",
       },
       
       gradientColorStopPositions: {

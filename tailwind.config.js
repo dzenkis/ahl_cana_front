@@ -92,12 +92,18 @@ module.exports = {
         sm:"500px",
         lg:"968px",
         xl:"1200px",
+        "table":"1382px",
         '3xl': '1743px',
         '2xxl': '1615px',
   
       },
       backgroundImage: {
         'lupa': "url('../images/lupa.png')",
+      },
+      margin: {
+        22: '22rem', 
+        20.5: '20.5rem',
+        9.75: '9.75rem',
       },
       padding: {
         '4.5': '4.5rem',

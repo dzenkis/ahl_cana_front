@@ -2004,6 +2004,11 @@ tr:hover .highlight {
     padding: 0.25rem;
   }
 
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .lg\:pb-0 {
     padding-bottom: 0px;
   }

@@ -1182,8 +1182,8 @@ tr:hover .highlight {
   max-width: 24rem;
 }
 
-.max-w-lg {
-  max-width: 32rem;
+.max-w-\[1400px\] {
+  max-width: 1400px;
 }
 
 .max-w-md {

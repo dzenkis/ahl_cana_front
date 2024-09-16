@@ -1054,6 +1054,10 @@ tr:hover .highlight {
   height: 3.5rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -1146,6 +1150,10 @@ tr:hover .highlight {
   width: 2rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .w-86 {
   width: 22rem;
 }
@@ -1184,6 +1192,10 @@ tr:hover .highlight {
 
 .max-w-\[1400px\] {
   max-width: 1400px;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .max-w-md {
@@ -1324,6 +1336,10 @@ tr:hover .highlight {
 
 .rounded-md {
   border-radius: 7px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-t-2xl {
@@ -2029,6 +2045,38 @@ tr:hover .highlight {
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1140px) {
+  .wrap\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .wrap\:flex-row {
+    flex-direction: row;
+  }
+
+  .wrap\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .wrap\:items-start {
+    align-items: flex-start;
+  }
+
+  .wrap\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .wrap\:text-left {
+    text-align: left;
+  }
+
+  .wrap\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 

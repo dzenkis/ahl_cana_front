@@ -91,6 +91,7 @@ module.exports = {
 
         sm:"500px",
         lg:"968px",
+        wrap:"1140px",
         xl:"1200px",
         "table":"1382px",
         '3xl': '1743px',

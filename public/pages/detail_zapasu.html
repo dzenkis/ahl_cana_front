@@ -406,7 +406,7 @@
             <h4 class="text-2xl transition-all font-bold">Detail zápasu</h4>
 
         </div>
-        <section class="flex justify-center flex-col lg:flex-row xl:justify-between flex-wrap xl:flex-nowrap">
+        <section class="flex justify-center flex-col lg:flex-row xl:justify-evenly flex-wrap xl:flex-nowrap">
 
             <div class="px-12 py-4">
                 
@@ -459,7 +459,7 @@
             </div>
 
 
-
+          <div class="flex flex-col items-center justify-center">
             <div class="px-12 py-4 w-full lg:w-auto">
                 
                 <div class="flex justify-center lg:justify-start mb-6 flex-col md:flex-row items-center gap-8">
@@ -472,91 +472,106 @@
             
                         </div>
 
-                        <div class="flex items-center lg:items-start gap-6 flex-row md:flex-col">
-                            <div class="flex items-center gap-10 justify-start flex-col md:flex-row">
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">2</h2>
-                                    <h2 class="text-sm text-gray-500">(12)</h2>
-                                </div>
+                        <div class="flex items-center lg:items-start gap-6 flex-row">
 
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">1</h2>
-                                    <h2 class="text-sm text-gray-500">(12)</h2>
-                                </div>
+                          <div class="flex items-center gap-4 justify-start flex-col">
 
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">0</h2>
-                                    <h2 class="text-sm text-gray-500">(6)</h2>
-                                </div>
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">2</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
 
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">0</h2>
-                                    <h2 class="text-sm text-gray-500">(9)</h2>
-                                </div>
+                            <p class="text-sm text-gray-500 flex gap-1 px-2">1 <span>tr.</span></p>
+
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">2</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
+                            
+                          </div>
+
+                          <div class="flex items-center gap-4 justify-start flex-col">
+
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">1</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
+
+                            <p class="text-sm text-gray-500 flex gap-1 px-2">2 <span>tr.</span></p>
+
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">1</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
+                            
+                          </div>
+
+                          <div class="flex items-center gap-4 justify-start flex-col">
+
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">0</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
+
+                            <p class="text-sm text-gray-500 flex gap-1 px-2">3 <span>tr.</span></p>
+
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">0</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
+                            
+                          </div>
+
+                          <div class="flex items-center gap-4 justify-start flex-col">
+
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">0</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
+
+                            <p class="text-sm text-gray-500 flex gap-1 px-2">Predĺž.</p>
+
+                            <div class="flex items-center gap-1">
+                              <h2 class="font-bold text-xl">0</h2>
+                              <h2 class="text-sm text-gray-500">(12)</h2>
+                            </div>
+                            
+                          </div>
+
+                          <!-- <div class="flex flex-col gap-4">
 
                                 <div class="flex items-center gap-4 flex-col md:flex-row">
-                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">&#10003;</div>
-                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">&#10006;</div>
-                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">&#10003;</div>
-                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">&#10006;</div>
-                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">&#10003;</div>
-                                </div>
-                            </div>
-
-                            <div class="w-full">
-
-                                <div class="flex gap-12 mb-48 md:mb-0 items-center md:gap-8 justify-start flex-col md:flex-row">
-                                    <p class="text-sm text-gray-500 flex gap-1 px-2">1 <span>tr.</span></p>
-                                    <p class="text-sm text-gray-500 flex gap-1 px-2">2 <span>tr.</span></p>
-                                    <p class="text-sm text-gray-500 flex gap-1 px-2">3 <span>tr.</span></p>
-                                    <p class="text-sm text-gray-500 px-0.5">Predĺž.</p>
-                                    <p class="text-sm text-gray-500 px-0.5">Nájazdy</p>
+                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-7 w-7 mx-auto">&#10003;</div>
+                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-7 w-7 mx-auto">&#10006;</div>
+                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-7 w-7 mx-auto">&#10003;</div>
+                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-7 w-7 mx-auto">&#10006;</div>
+                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-7 w-7 mx-auto">&#10003;</div>
                                 </div>
 
-                            </div>
-
-                            <div class="flex items-center gap-10 justify-start w-full flex-col md:flex-row">
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">2</h2>
-                                    <h2 class="text-sm text-gray-500">(12)</h2>
-                                </div>
-
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">1</h2>
-                                    <h2 class="text-sm text-gray-500">(12)</h2>
-                                </div>
-
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">0</h2>
-                                    <h2 class="text-sm text-gray-500">(6)</h2>
-                                </div>
-
-                                <div class="flex items-center gap-1">
-                                    <h2 class="font-bold text-xl">0</h2>
-                                    <h2 class="text-sm text-gray-500">(9)</h2>
-                                </div>
+                                <p class="text-sm text-gray-500 flex gap-1 px-2">Nájazdy</p>
 
                                 <div class="flex items-center gap-4 flex-col md:flex-row">
-                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">&#10003;</div>
-                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">&#10006;</div>
-                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">&#10003;</div>
-                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-8 w-8 mx-auto">&#10006;</div>
-                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-8 w-8 mx-auto">&#10003;</div>
+                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-7 w-7 mx-auto">&#10003;</div>
+                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-7 w-7 mx-auto">&#10006;</div>
+                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-7 w-7 mx-auto">&#10003;</div>
+                                    <div class="flex items-center justify-center bg-red-700 text-white rounded-full h-7 w-7 mx-auto">&#10006;</div>
+                                    <div class="flex items-center font-bold justify-center bg-green-400 text-white rounded-full h-7 w-7 mx-auto">&#10003;</div>
+
                                 </div>
-                            </div>
+                          </div> -->
                         </div>
-
                     </div>
 
                 </div>
 
-
-                <div class="bg-pink-100 rounded-md p-4">
-                    <h2 class="text-lg text-table-1 text-center lg:text-left">Poznámka k zápasu</h2>
-                    <h3 class="text-sm lg:text-base text-center lg:text-left">Z dôvodu pozápasovej bitky boli udelené dodatočné<br class="hidden sm:block"> tresty pre hráčov oboch mužstiev.</h3>
-                </div>
-
             </div>
+
+                <div class="bg-pink-100 rounded-md py-4 px-8 flex flex-col">
+                    <h2 class="text-lg text-table-1 text-center lg:text-left">Poznámka k zápasu</h2>
+                    <h3 class="text-sm lg:text-base text-center lg:text-left">Udelené dodatočné tresty</h3>
+                </div>
+          </div>
+            
 
         </section>
 

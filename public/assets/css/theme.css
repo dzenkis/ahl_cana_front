@@ -986,10 +986,6 @@ tr:hover .highlight {
   margin-bottom: 1rem;
 }
 
-.mb-48 {
-  margin-bottom: 12rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -1148,6 +1144,10 @@ tr:hover .highlight {
 
 .w-60 {
   width: 15rem;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .w-8 {
@@ -1507,11 +1507,6 @@ tr:hover .highlight {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.px-0\.5 {
-  padding-left: 0.125rem;
-  padding-right: 0.125rem;
 }
 
 .px-1 {
@@ -1904,19 +1899,9 @@ tr:hover .highlight {
   --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
 }
 
-@media (min-width: 500px) {
-  .sm\:block {
-    display: block;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
-  }
-
-  .md\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .md\:h-12 {
@@ -1939,10 +1924,6 @@ tr:hover .highlight {
     flex-direction: row;
   }
 
-  .md\:flex-col {
-    flex-direction: column;
-  }
-
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -1957,10 +1938,6 @@ tr:hover .highlight {
 
   .md\:gap-4 {
     gap: 1rem;
-  }
-
-  .md\:gap-8 {
-    gap: 2rem;
   }
 
   .md\:p-1 {
@@ -2171,6 +2148,10 @@ tr:hover .highlight {
 
   .xl\:justify-between {
     justify-content: space-between;
+  }
+
+  .xl\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .xl\:gap-16 {

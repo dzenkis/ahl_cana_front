@@ -240,50 +240,53 @@
 
         </div>
 
-        <nav class="bg-cyan-200 p-2 px-12 sticky top-0 z-100">
-            <div class="flex justify-center items-center">
-                <div class="hidden lg:flex items-center w-full justify-between text-center z-200">
-                    <a href="#" class="font-bold text-sm pr-2">
-                        <img src="./assets/images/home.png" alt="Home" class="inline-block h-6 w-6 brightness-200 hover:brightness-90">
-                    </a>
-                    <a href="./pages/tabulka.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">TABUĽKA</a>
-                    <a href="./pages/program.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">VÝSLEDKY A PROGRAM</a>
-                    <a href="./pages/statistiky.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">ŠTATISTIKY</a>
-                    <a href="./pages/pravidla.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">PRAVIDLÁ</a>
-                    <a href="./pages/rozhodnutia.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">ROZHODNUTIA</a>
-                    <a href="./pages/historia.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">O NÁS</a>
-                    <a href="#" class="text-red-700 font-bold text-sm hover:text-red-800 py-2 px-3">LIVE •</a>
-                    <a href="#" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">SÚŤAŽE</a>
-                    <a href="#" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">FAN SHOP</a>
-                    <a href="./components/authentication-login.html" class="bg-brown-100 text-gray-900 font-semibold py-2 px-4 rounded hover:bg-brown-200">PRIHLÁSENIE</a>
+        <div class="sticky top-0 z-100">
+            <nav class="bg-cyan-200 p-2 px-12 sticky top-0 z-200">
+                <div class="flex justify-center items-center">
+                    <div class="hidden lg:flex items-center w-full justify-between text-center z-200">
+                        <a href="#" class="font-bold text-sm pr-2">
+                            <img src="./assets/images/home.png" alt="Home" class="inline-block h-6 w-6 brightness-200 hover:brightness-90">
+                        </a>
+                        <a href="./pages/tabulka.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">TABUĽKA</a>
+                        <a href="./pages/program.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">VÝSLEDKY A PROGRAM</a>
+                        <a href="./pages/statistiky.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">ŠTATISTIKY</a>
+                        <a href="./pages/pravidla.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">PRAVIDLÁ</a>
+                        <a href="./pages/rozhodnutia.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">ROZHODNUTIA</a>
+                        <a href="./pages/historia.html" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3 lg:hidden xl:block">O NÁS</a>
+                        <a href="#" class="text-red-700 font-bold text-sm hover:text-red-800 py-2 px-3">LIVE •</a>
+                        <a href="#" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">SÚŤAŽE</a>
+                        <a href="#" class="text-white font-bold text-sm hover:text-slate-200 py-2 px-3">FAN SHOP</a>
+                        <a href="./components/authentication-login.html" class="bg-brown-100 text-gray-900 font-semibold py-2 px-4 rounded hover:bg-brown-200">PRIHLÁSENIE</a>
+                    </div>
+
+
+
+                    <div class="flex items-center w-full justify-between text-center lg:hidden z-200">
+                        <a href="#" class="font-bold text-sm pr-2">
+                            <img src="./assets/images/home.png" alt="Home" class="inline-block h-6 w-6 brightness-200 hover:brightness-90">
+                        </a>
+                        <a href="./components/authentication-login.html" class="bg-brown-100 text-gray-900 font-semibold py-2 px-4 rounded hover:bg-brown-200">PRIHLÁSENIE</a>
+                    </div>
+
+                    <div id="burger" class="flex flex-col cursor-pointer z-200 xl:hidden pl-2 pt-2">
+                        <span class="transition-all"></span>
+                        <span class="transition-all"></span>
+                    </div>
+                    
                 </div>
-
-
-
-                <div class="flex items-center w-full justify-between text-center lg:hidden z-200">
-                    <a href="#" class="font-bold text-sm pr-2">
-                        <img src="./assets/images/home.png" alt="Home" class="inline-block h-6 w-6 brightness-200 hover:brightness-90">
-                    </a>
-                    <a href="./components/authentication-login.html" class="bg-brown-100 text-gray-900 font-semibold py-2 px-4 rounded hover:bg-brown-200">PRIHLÁSENIE</a>
-                </div>
-
-                <div id="burger" class="flex flex-col cursor-pointer z-200 xl:hidden pl-2 pt-2">
-                    <span class="transition-all"></span>
-                    <span class="transition-all"></span>
-                </div>
-                <ul id="menu-items" class="mobile-nav">
-                    <li class="nav-items"><a href="./pages/tabulka.html" class="block lg:hidden">TABUĽKA</a></li>
-                    <li class="nav-items"><a href="./pages/program.html" class="block lg:hidden">VÝSLEDKY A PROGRAM</a></li>
-                    <li class="nav-items"><a href="./pages/statistiky.html" class="block lg:hidden">ŠTATISTIKY</a></li>
-                    <li class="nav-items"><a href="./pages/pravidla.html">PRAVIDLÁ</a></li>
-                    <li class="nav-items"><a href="./pages/rozhodnutia.html">ROZHODNUTIA</a></li>
-                    <li class="nav-items"><a href="./pages/historia.html">O NÁS</a></li>
-                    <li class="nav-items"><a href="#" class="text-red-700 hover:text-red-800 block lg:hidden">LIVE •</a></li>
-                    <li class="nav-items"><a href="#" class="block lg:hidden">SÚŤAŽE</a></li>
-                    <li class="nav-items"><a href="#" class="block lg:hidden">FAN SHOP</a></li>
-                </ul>
-            </div>
-        </nav>
+            </nav>
+            <ul id="menu-items" class="mobile-nav">
+                <li class="nav-items"><a href="./pages/tabulka.html" class="block lg:hidden">TABUĽKA</a></li>
+                <li class="nav-items"><a href="./pages/program.html" class="block lg:hidden">VÝSLEDKY A PROGRAM</a></li>
+                <li class="nav-items"><a href="./pages/statistiky.html" class="block lg:hidden">ŠTATISTIKY</a></li>
+                <li class="nav-items"><a href="./pages/pravidla.html">PRAVIDLÁ</a></li>
+                <li class="nav-items"><a href="./pages/rozhodnutia.html">ROZHODNUTIA</a></li>
+                <li class="nav-items"><a href="./pages/historia.html">O NÁS</a></li>
+                <li class="nav-items"><a href="#" class="text-red-700 hover:text-red-800 block lg:hidden">LIVE •</a></li>
+                <li class="nav-items"><a href="#" class="block lg:hidden">SÚŤAŽE</a></li>
+                <li class="nav-items"><a href="#" class="block lg:hidden">FAN SHOP</a></li>
+            </ul>
+        </div>
     </header>
 
 
